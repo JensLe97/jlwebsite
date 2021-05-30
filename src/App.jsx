@@ -6,7 +6,6 @@ function App() {
       <header className="App-header">
         <p>
           Hello World!
-          This is a new entry.
         </p>
       </header>
     </div>
