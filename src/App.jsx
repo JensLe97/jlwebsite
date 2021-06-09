@@ -1,13 +1,32 @@
 import './App.css';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Disclosure from './pages/Disclosure'
+import ProjectView from './pages/ProjectView';
+import ScrollToTop from './components/ScrollToTop';
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hello World!
-        </p>
-      </header>
+      <HelmetProvider>
+        <Router>
+          <ScrollToTop />
+          <NavBar />
+          <Switch>
+            <Route path='/' exact component={Home}/>
+            <Route path='/about' exact component={About}/>
+            <Route path='/contact' exact component={Contact}/>
+            <Route path='/disclosure' exact component={Disclosure}/>
+            <Route path='/project-view' exact component={ProjectView}/>
+          </Switch>
+          <Footer />
+        </Router>
+      </HelmetProvider>
     </div>
   );
 }

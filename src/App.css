@@ -1,1 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif, Arial, Helvetica, sans-serif;
+  }
+  
+  .home,
+  .about,
+  .contact,
+  .disclosure,
+  .project-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .about,
+  .contact,
+  .disclosure,
+  .project-view {
+    height: 95vh;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 70px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .about,
+    .contact,
+    .disclosure,
+    .project-view {
+      font-size: 50px;
+    }
+  }
+
+
 
