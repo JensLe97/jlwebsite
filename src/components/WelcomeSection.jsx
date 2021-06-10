@@ -11,14 +11,17 @@ import React from 'react'
 import { Button } from './Button'
 import './WelcomeSection.css'
 import '../App.css'
-import video from '../videos/coast.mp4'
+// import video from '../videos/coast.mp4'
+import mountainnight from '../images/monument-valley.jpg'
 
 function WelcomeSection() {
     return (
         <div className="welcome-container"
-            //  style={{ background: "url(/images/mountains.jpg) center center/cover no-repeat" }}
+             style={{ backgroundImage: `url(${mountainnight})`, backgroundPosition: 'center',
+             backgroundSize: 'cover',
+             backgroundRepeat: 'no-repeat'}}
             >
-            <video src={video} autoPlay loop muted type="video/mp4" playsInline></video>
+            {/* <video src={video} autoPlay loop muted type="video/mp4" playsInline alt="welcome-video"></video> */}
             <h1>Will&shy;kommen auf meiner Website!</h1>
             <p>Hier erfahrt ihr ein wenig über mich</p>
             <div className="welcome-btns">
