@@ -8,6 +8,7 @@ export default function ProjectView() {
         <div>
             <Helmet>
                 <title>Jens Lemke | Projektansicht</title>
+                <meta name="description" content="Auf dieser Seite stelle ich meine privaten Projekte vor. Diese Website gehört zum Beispiel auch dazu. Mehr findet ihr auf meinem GitHub." />
             </Helmet>
             <h1 
             className="project-view"

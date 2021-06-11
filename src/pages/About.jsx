@@ -11,6 +11,7 @@ export default function About() {
         <div>
             <Helmet>
                 <title>Jens Lemke | Über mich</title>
+                <meta name="description" content="Auf dieser Seite stelle ich mich und meine berufliche Karriere vor. Ein paar private Informationen zu meinen Hobbies und auch der Verlauf meines Studiums." />
             </Helmet>
             <h1 
             className="about"

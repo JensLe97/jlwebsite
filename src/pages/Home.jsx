@@ -10,6 +10,7 @@ function Home () {
         <div className="home">
             <Helmet>
                 <title>Jens Lemke | Home</title>
+                <meta name="description" content="Willkommen auf meiner eigenen privaten Website. Mein Name ist Jens Lemke und hier werde ich immer wieder meine Projekte vorstellen." />
             </Helmet>
             <WelcomeSection />
             <CardsSection />
