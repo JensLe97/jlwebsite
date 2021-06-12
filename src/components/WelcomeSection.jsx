@@ -24,7 +24,7 @@ function WelcomeSection() {
             >
             {/* <video src={video} autoPlay loop muted type="video/mp4" playsInline alt="welcome-video"></video> */}
             <h1>Will&shy;kommen auf meiner Website!</h1>
-            <p>Hier erfahrt ihr ein wenig über mich</p>
+            <p>Hier erfährst du ein wenig über mich</p>
             <div className="welcome-btns">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large" to="/about">
                     Über mich

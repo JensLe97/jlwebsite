@@ -11,7 +11,7 @@ export default function Contact() {
         <div>
             <Helmet>
                 <title>Jens Lemke | Kontakt</title>
-                <meta name="description" content="Hier findet ihr ein Kontaktformular, um mir eine Nachricht zu schreiben. Außerdem sind meine Kontaktdaten angegeben." />
+                <meta name="description" content="Hier findest du ein Kontaktformular, um mir eine Nachricht zu schreiben. Außerdem sind meine Kontaktdaten angegeben." />
             </Helmet>
             <h1 
             className="contact"

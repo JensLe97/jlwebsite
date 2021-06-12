@@ -3,7 +3,7 @@ import StudyImg from '../images/monument-valley.jpg'
 
 export const InfoDataAboutGeneral = {
     heading: "Infos über mich",
-    firstParagraph: "Hi, mein Name ist Jens Lemke und das hier ist meine eigene kleine Website auf der ich mich und meine Projekte vorstelle. Aktuell bin ich Masterstudent an der TU Darmstadt und studiere Informatik im 3. Semester. Mehr über mein Studium erfahrt ihr im nächsten Abschnitt.",
+    firstParagraph: "Hi, mein Name ist Jens Lemke und das hier ist meine eigene kleine Website auf der ich mich und meine Projekte vorstelle. Aktuell bin ich Masterstudent an der TU Darmstadt und studiere Informatik im 3. Semester. Mehr über mein Studium erfährst du im nächsten Abschnitt.",
     secondParagraph: "Neben dem Studium verbringe ich meine Zeit am liebsten mit meiner Freundin und meiner Familie. In meiner Freizeit mache ich gerne Musik, genauer gesagt spiele ich Klavier und Gitarre. Außerdem interssiere ich mich sehr für Magie, besonders Kartenmagie und bin immer gerne bereit ein paar Tricks zu zeigen. Daher auch die Symbole dieser Website.",
     thirdParagraph: "Des Weiteren zählt Badminton spielen, Malen und Zeichnen zu meinen Hobbies. Sowohl mit Acryl als auch mit Bleistift male ich vor allem Landschaften oder andere Naturmotive.",
     image: AboutImg,

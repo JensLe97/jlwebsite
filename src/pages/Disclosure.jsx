@@ -9,7 +9,7 @@ export default function Disclosure() {
         <div>
             <Helmet>
                 <title>Jens Lemke | Impressum</title>
-                <meta name="description" content="Auf der Impressum-Seite findet ihr alles über die rechtlichen Daten zur Website. Neben meinen Kontaktdaten ist eine Datenschutzerklärung vorhanden." />
+                <meta name="description" content="Auf der Impressum-Seite findest du alles über die rechtlichen Daten zur Website. Neben meinen Kontaktdaten ist eine Datenschutzerklärung vorhanden." />
             </Helmet>
             <h1 
             className="disclosure"
