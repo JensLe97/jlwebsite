@@ -1,4 +1,5 @@
 /* 
+<a href='https://de.freepik.com/fotos/wasser'>Wasser Foto erstellt von tawatchai07 - de.freepik.com</a>
 <a href='https://de.freepik.com/fotos/wolke'>Wolke Foto erstellt von tawatchai07 - de.freepik.com</a>
 <a href='https://de.freepik.com/fotos/hintergrund'>Hintergrund Foto erstellt von 4045 - de.freepik.com</a>
 <a href='https://de.freepik.com/fotos/winter'>Winter Foto erstellt von tawatchai07 - de.freepik.com</a> 
@@ -12,12 +13,12 @@ import { Button } from './Button'
 import './WelcomeSection.css'
 import '../App.css'
 // import video from '../videos/coast.mp4'
-import mountainnight from '../images/monument-valley.jpg'
+import winter from '../images/winter.jpg'
 
 function WelcomeSection() {
     return (
         <div className="welcome-container"
-             style={{ backgroundImage: `url(${mountainnight})`, backgroundPosition: 'center',
+             style={{ backgroundImage: `url(${winter})`, backgroundPosition: 'center',
              backgroundSize: 'cover',
              backgroundRepeat: 'no-repeat'}}
             >

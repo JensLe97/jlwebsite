@@ -263,6 +263,7 @@ const DisclosureSection = () => {
                 <h4>Quelle: <a href="https://www.e-recht24.de/" target="_blank" rel="noopener noreferrer">e-recht24.de</a></h4>
                 <h1>Verwendete Bildquellen</h1>
                 <ul>
+                    <li><a href='https://de.freepik.com/fotos/wasser' target="_blank" rel="noopener noreferrer">Wasser Foto erstellt von tawatchai07 - de.freepik.com</a></li>
                     <li><a href='https://de.freepik.com/fotos/wolke' target="_blank" rel="noopener noreferrer">Wolke Foto erstellt von tawatchai07 - de.freepik.com</a></li>
                     <li><a href='https://de.freepik.com/fotos/hintergrund' target="_blank" rel="noopener noreferrer">Hintergrund Foto erstellt von 4045 - de.freepik.com</a></li>
                     <li><a href='https://de.freepik.com/fotos/winter' target="_blank" rel="noopener noreferrer">Winter Foto erstellt von tawatchai07 - de.freepik.com</a> </li>
