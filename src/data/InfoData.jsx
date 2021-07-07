@@ -1,4 +1,4 @@
-import AboutImg from '../images/beach.jpg'
+import AboutImg from '../images/profilepicture.jpg'
 import StudyImg from '../images/monument-valley.jpg'
 
 export const InfoDataAboutGeneral = {
