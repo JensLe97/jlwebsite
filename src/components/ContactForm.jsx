@@ -32,7 +32,7 @@ class ContactForm extends React.Component {
       const target = event.target;
       const name = target.name;
 
-      fetch('https://jlwebsite.herokuapp.com/api/footer/api/contact', {
+      fetch('https://jlwebsite.herokuapp.com//api/contact', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json',
