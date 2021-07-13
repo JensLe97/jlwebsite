@@ -7,6 +7,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Disclosure from './pages/Disclosure'
 import ProjectView from './pages/ProjectView';
+import Submission from './pages/Submission'
 import NotFound from './pages/NotFound';
 import ScrollToTop from './components/ScrollToTop';
 import { HelmetProvider } from 'react-helmet-async';
@@ -24,6 +25,7 @@ function App() {
             <Route path='/contact' exact component={Contact}/>
             <Route path='/disclosure' exact component={Disclosure}/>
             <Route path='/project-view' exact component={ProjectView}/>
+            <Route path='/submission' exact component={Submission}/>
             <Route path='*' exact component={NotFound}/>
           </Switch>
           <Footer />

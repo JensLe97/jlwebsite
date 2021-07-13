@@ -80,7 +80,7 @@ const InfoSection = ({
                     <p>{thirdParagraph}</p>
                 </LeftColumn>
                 <RightColumn reverse={reverse}>
-                    <img src={image} alt="info-img" />
+                    <img src={image} alt="info-profile-jens-lemke" />
                 </RightColumn>
             </Container>
         </Section>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLocation} from 'react-router-dom'
+import { Link, useLocation, withRouter } from 'react-router-dom'
 // import { Link as LinkS } from "react-scroll";
 import { Button } from './Button'
 import './Footer.css'
@@ -14,31 +14,47 @@ class FooterForm extends React.Component {
     }
   
     handleChange(event) {
-      this.setState({email: event.target.email});
+        event.preventDefault();
+        this.setState({email: event.target.value});
     }
   
     handleSubmit(event) {
-        // if (window.location.pathname === "/sign-up") {
-        //     window.location.reload();
-        // }
+        event.preventDefault();
         const target = event.target;
         const name = target.name;
-  
+
+        fetch('https://jlwebsite.herokuapp.com/api/footer', {
+            method: 'POST',
+            headers: {
+                'Content-type': 'application/json',
+            },
+            body: JSON.stringify(this.state.email),
+        }).then(response => {
+            if (response.ok) {
+                this.props.history.push('/submission')
+                event.target.reset();
+            }
+        })      
+        .catch(error => {
+        console.error(error);
+        });
         this.setState({
-          [name]: ''
+            [name]: ''
         });
     }    
   
     render() {
     // const validEmailRegex = RegExp(/^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+.)+[^<>()[\].,;:\s@"]{2,})$/i)
-      return (
-        <form onSubmit={this.handleSubmit}>
+    return (
+        <form onSubmit={this.handleSubmit} method="POST">
             <input type="email" name="email" placeholder="Email Adresse" className="footer-input" value={this.state.value} onChange={this.handleChange} required/>
-            <Button className="footer-btn" buttonStyle="btn--outline" type="submit" value="Submit" onClick={this.handleSubmit} onlyButton={true}>Abonnieren</Button>
+            <Button className="footer-btn" buttonStyle="btn--outline" type="submit" value="Submit" onlyButton={true}>Abonnieren</Button>
         </form>
       );
     }
   }
+
+const FooterFormWithRouter = withRouter(FooterForm);
 
 function Footer() {
     let location = useLocation();
@@ -56,7 +72,7 @@ function Footer() {
                     Jederzeit widerrufbar.
                 </p>
                 <div className="input-areas">
-                    <FooterForm />
+                    <FooterFormWithRouter />
                 </div>
             </section>
             <div className="footer-links">
