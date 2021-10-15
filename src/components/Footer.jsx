@@ -137,7 +137,7 @@ function Footer() {
                             href="https://github.com/JensLe97" 
                             target="_blank"
                             rel="noopener noreferrer"
-                            aria-label="GitGub">
+                            aria-label="GitHub">
                             <i className="fab fa-github-square"></i>
                         </a>
                     </div>
