@@ -23,7 +23,7 @@ function CardsSection() {
                         />
                         <Card 
                             src={monumentvalley}
-                            text="Erkunde meine Projekte (tbd)"
+                            text="Erkunde meine Projekte"
                             label="Projektansicht"
                             path="/project-view"
                         />
