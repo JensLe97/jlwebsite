@@ -270,6 +270,8 @@ const DisclosureSection = () => {
                     <li><a href='https://de.freepik.com/fotos/hintergrund' target="_blank" rel="noopener noreferrer">Hintergrund Foto erstellt von mrsiraphol - de.freepik.com</a></li>
                     <li><a href='https://de.freepik.com/fotos/reise' target="_blank" rel="noopener noreferrer">Reise Foto erstellt von onlyyouqj - de.freepik.com</a></li>
                     <li><a href='https://de.freepik.com/fotos/natur' target="_blank" rel="noopener noreferrer">Natur Foto erstellt von vwalakte - de.freepik.com</a></li>
+                    <li><a href='https://de.freepik.com/fotos/technologie' target="_blank" rel="noopener noreferrer">Technologie Foto erstellt von rawpixel.com - de.freepik.com</a></li>
+                    <li><a href='https://de.freepik.com/fotos/hintergrund' target="_blank" rel="noopener noreferrer">Hintergrund Foto erstellt von rawpixel.com - de.freepik.com</a></li>
                 </ul>
             </Container>
         </Section>

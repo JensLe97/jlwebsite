@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css'
 import { Helmet } from 'react-helmet-async';
 import InfoSection from '../components/InfoSection'
-import { InfoDataAboutGeneral, InfoDataAboutStudy } from '../data/InfoData'
+import { InfoDataAboutGeneral, InfoDataAboutJob, InfoDataAboutStudy } from '../data/InfoData'
 
 import mountains from '../images/mountains.jpg'
 
@@ -19,5 +19,6 @@ export default function About() {
             Über mich</h1>
             <InfoSection {...InfoDataAboutGeneral}/>
             <InfoSection {...InfoDataAboutStudy}/>
+            <InfoSection {...InfoDataAboutJob}/>
         </div>)
 }

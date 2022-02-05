@@ -112,7 +112,7 @@ function Footer() {
                             <p className="social-logo"
                             onClick={scrollTop}
                             >JL <i className="fas fa-magic"></i></p> : 
-                            <Link to="/" className="social-logo">HOME <i className="fas fa-magic"></i></Link>}
+                            <Link to="/" className="social-logo">JL <i className="fas fa-magic"></i></Link>}
                     </div>
                     <p className="website-rights">Jens Lemke &copy; {new Date().getFullYear()}</p>
                     <div className="social-icons">
