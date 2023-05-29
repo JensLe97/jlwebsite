@@ -67,7 +67,7 @@ const DisclosureSection = () => {
 
                 <h2>Angaben gemäß &sect; 5 TMG</h2>
                 <p>Jens Lemke<br />
-                Neckarstr. 3<br />
+                Vorderstr. 9<br />
                 65439 Flörsheim am Main</p>
 
                 <h2>Kontakt</h2>
