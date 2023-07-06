@@ -32,7 +32,7 @@ class ContactForm extends React.Component {
       const target = event.target;
       const name = target.name;
 
-      fetch('https://jlwebsite.up.railway.app//api/contact', {
+      fetch('https://jlwebsite.onrender.com//api/contact', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json',

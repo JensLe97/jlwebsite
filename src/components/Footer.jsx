@@ -23,7 +23,7 @@ class FooterForm extends React.Component {
         const target = event.target;
         const name = target.name;
 
-        fetch('https://jlwebsite.up.railway.app//api/footer', {
+        fetch('https://jlwebsite.onrender.com//api/footer', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json',
