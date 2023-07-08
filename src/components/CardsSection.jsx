@@ -39,7 +39,7 @@ function CardsSection() {
                             src={beach}
                             text="Eigenes Webgame (tbd)"
                             label="Mini-Game"
-                            path="/about"
+                            path="/game"
                         />
                         <Card 
                             src={boat}

@@ -3,7 +3,7 @@ import '../App.css'
 import { Helmet } from 'react-helmet-async';
 import { Button } from '../components/Button'
 
-export default function Disclosure() {
+export default function NotFound() {
     return (
         <div className="not-found">
             <Helmet>

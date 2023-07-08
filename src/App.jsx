@@ -9,6 +9,7 @@ import Disclosure from './pages/Disclosure'
 import ProjectView from './pages/ProjectView';
 import Submission from './pages/Submission'
 import NotFound from './pages/NotFound';
+import WebGamePage from './pages/WebGame'
 import ScrollToTop from './components/ScrollToTop';
 import { HelmetProvider } from 'react-helmet-async';
 
@@ -24,6 +25,7 @@ function App() {
             <Route path='/about' exact component={About}/>
             <Route path='/contact' exact component={Contact}/>
             <Route path='/disclosure' exact component={Disclosure}/>
+            <Route path='/game' exact component={WebGamePage}/>
             <Route path='/project-view' exact component={ProjectView}/>
             <Route path='/submission' exact component={Submission}/>
             <Route path='*' exact component={NotFound}/>
