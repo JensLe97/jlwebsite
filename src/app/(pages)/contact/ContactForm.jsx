@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "../../../components/ui/Button";
 import "./ContactForm.css";
+import { PT_Sans } from "next/font/google";
+const pt_sans = PT_Sans({ subsets: ["latin"], weight: "700" });
 
 export const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -60,7 +62,7 @@ export const ContactForm = () => {
         <input
           autoComplete="off"
           size="1"
-          className="input-field"
+          className={`${pt_sans.className} input-field`}
           type="text"
           name="name"
           value={formData.name}
@@ -72,7 +74,7 @@ export const ContactForm = () => {
         <input
           autoComplete="off"
           size="1"
-          className="input-field"
+          className={`${pt_sans.className} input-field`}
           type="email"
           name="email"
           value={formData.email}
@@ -85,7 +87,7 @@ export const ContactForm = () => {
           autoComplete="off"
           size="1"
           rows="5"
-          className="textarea-field"
+          className={`${pt_sans.className} textarea-field`}
           name="message"
           value={formData.message}
           onChange={handleChange}

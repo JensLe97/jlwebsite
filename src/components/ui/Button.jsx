@@ -2,7 +2,7 @@ import React from "react";
 import "./Button.css";
 import Link from "next/link";
 import { PT_Sans } from "next/font/google";
-const pt_sans = PT_Sans({ subsets: ["latin"], weight: "700", display: "swap" });
+const pt_sans = PT_Sans({ subsets: ["latin"], weight: "700" });
 
 const STYLES = ["btn--primary", "btn--outline", "btn--outline-rev"];
 
@@ -31,7 +31,7 @@ export const Button = ({
   return onlyButton ? (
     <button
       disabled={!enabled}
-      className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+      className={`${pt_sans.className} btn ${checkButtonStyle} ${checkButtonSize}`}
       onClick={onClick}
       type={type}
     >
@@ -45,7 +45,7 @@ export const Button = ({
     >
       <button
         disabled={!enabled}
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+        className={`${pt_sans.className} btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
       >

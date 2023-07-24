@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PT_Sans } from "next/font/google";
 import "./globals.css";
 
-const pt_sans = PT_Sans({ subsets: ["latin"], weight: "700", display: "swap" });
+const pt_sans = PT_Sans({ subsets: ["latin"], weight: "700" });
 
 export const metadata: Metadata = {
   title: "Jens Lemke",

@@ -4,7 +4,7 @@ import NavBar from "../../components/navbar/NavBar";
 import Footer from "../../components/footer/Footer";
 import "./globals.css";
 
-const pt_sans = PT_Sans({ subsets: ["latin"], weight: "700", display: "swap" });
+const pt_sans = PT_Sans({ subsets: ["latin"], weight: "700" });
 
 export const metadata: Metadata = {
   title: "Jens Lemke",

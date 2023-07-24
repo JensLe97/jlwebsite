@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Button } from "../ui/Button";
 import { useRouter } from "next/navigation";
+import { PT_Sans } from "next/font/google";
+const pt_sans = PT_Sans({ subsets: ["latin"], weight: "700" });
 
 export const FooterForm = () => {
   const [email, setEmail] = useState("");
@@ -40,7 +42,7 @@ export const FooterForm = () => {
         type="email"
         name="email"
         placeholder="Email Adresse"
-        className="footer-input"
+        className={`${pt_sans.className} footer-input`}
         value={email}
         onChange={handleChange}
         required
