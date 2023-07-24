@@ -27,7 +27,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.29.5-appdir.0",
+    "@netlify/plugin-nextjs": "^4.36.1",
     "sharp": "^0.32.4"
   }
 }
