@@ -1,14 +1,9 @@
 "use client";
 import React from "react";
+import dynamic from "next/dynamic";
 
-import Game from "./Game";
-
-function WebGamePage() {
-  return (
-    <div className="home">
-      <Game />
-    </div>
-  );
-}
-
+const PhaserGameNoSSR = dynamic(() => import("./Game"), {
+  ssr: false,
+});
+const WebGamePage = () => <PhaserGameNoSSR />;
 export default WebGamePage;

@@ -1,9 +1,7 @@
-// 'use client'
-import React, { useEffect, useRef } from "react";
-// import Phaser from 'phaser'
-// import { GameScene } from './scenes/GameScene'
+import React, { useEffect, useRef, useState } from "react";
 import { PreloadScene } from "./scenes/PreloadScene";
-// import { rootStore } from './store/root'
+import { GameScene } from "./scenes/GameScene";
+import { Game as GameType, Types } from "phaser";
 
 /* ============================ Flappy Bird ============================
  * This game is inspired by the implementation of
@@ -12,42 +10,47 @@ import { PreloadScene } from "./scenes/PreloadScene";
  * =====================================================================
  */
 
+export function useGame(
+  config: Types.Core.GameConfig,
+  containerRef: React.RefObject<HTMLDivElement>
+): GameType | undefined {
+  const [game, setGame] = useState<GameType>();
+  useEffect(() => {
+    if (!game && containerRef.current) {
+      const newGame = new GameType({ ...config, parent: containerRef.current });
+      setGame(newGame);
+    }
+    return () => {
+      game?.destroy(true);
+    };
+  }, [config, containerRef, game]);
+
+  return game;
+}
+
+const gameConfig: Types.Core.GameConfig = {
+  width: 720,
+  height: 480,
+  title: "Flappy Bird",
+  parent: "game-content",
+  type: Phaser.AUTO,
+  physics: {},
+  scale: {
+    mode: Phaser.Scale.FIT,
+    autoRound: false,
+    autoCenter: Phaser.Scale.CENTER_BOTH,
+    parent: "game-content",
+  },
+  render: {},
+  scene: [PreloadScene, GameScene],
+  backgroundColor: "#fff",
+};
+
 function Game() {
-  // const ref = useRef()
+  const ref = useRef<HTMLDivElement>(null);
+  useGame(gameConfig, ref);
 
-  // useEffect(() => {
-  // 	const game = new Phaser.Game({
-  // 		type: Phaser.AUTO,
-  // 		parent: ref.current,
-  // 		width: 720,
-  // 		height: 480,
-  // 		physics: {},
-  // 		scale: {
-  // 			mode: Phaser.Scale.ScaleModes.FIT,
-  // 			expandParent: false,
-  // 			autoRound: true,
-  // 		},
-  // 	})
-
-  // 	game.scene.add('preload', PreloadScene)
-  // 	// game.scene.add('game', GameScene)
-
-  // 	game.scene.start('preload')
-
-  // 	// return () => {
-  // 	// 	game.destroy(true)
-  // 	// }
-  // })
-
-  return (
-    <div
-      style={{
-        aspectRatio: "16 / 9",
-      }}
-    >
-      WebGame development in progress...
-    </div>
-  );
+  return <div id="game-content" ref={ref} />;
 }
 
 export default Game;
