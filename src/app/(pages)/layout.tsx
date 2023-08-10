@@ -19,6 +19,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <link
+          rel="icon"
+          href="/images/icon.ico"
+          type="image/x-icon"
+          sizes="64x64 32x32 24x24 16x16"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="/images/apple-icon.png"
+          type="image/png"
+          sizes="64x64 32x32 24x24 16x16"
+        />
+      </head>
       <body className={pt_sans.className}>
         <NavBar />
         {children}

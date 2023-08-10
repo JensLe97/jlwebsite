@@ -352,11 +352,6 @@ export class GameScene extends Phaser.Scene {
         cp.location.y = y;
         cp.rotation = rot;
 
-        if (cp.enabled) {
-          const playerRect = Player.rect(cp.location.x, cp.location.y);
-          const { goal, died } = Logic.collisions(playerRect);
-        }
-
         sprite.x = cp.location.x;
         sprite.y = cp.location.y;
         sprite.rotation = cp.rotation;
@@ -390,15 +385,6 @@ export class GameScene extends Phaser.Scene {
             // Logic.queueRespawn(p);
           }
         }
-        break;
-      }
-
-      case State.Countdown: {
-        rootStore.server.action();
-        const diff =
-          rootStore.server.state.startTime - rootStore.server.state.time;
-        const secs = Math.ceil(diff);
-        this.countdownText.setText(`${secs}`);
         break;
       }
     }
