@@ -8,6 +8,7 @@
 .about,
 .contact,
 .disclosure,
+.tech-knowl-edge-connect,
 .project-view,
 .not-found,
 .submission {
@@ -21,6 +22,7 @@
 .about,
 .contact,
 .disclosure,
+.tech-knowl-edge-connect,
 .project-view {
   height: 95vh;
   text-align: center;
@@ -55,6 +57,7 @@
   .about,
   .contact,
   .disclosure,
+  .tech-knowl-edge-connect,
   .project-view {
     font-size: 50px;
   }

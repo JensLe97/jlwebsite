@@ -90,7 +90,8 @@
 .footer-home,
 .footer-about,
 .footer-contact,
-.footer-disclosure {
+.footer-disclosure,
+.footer-tech-knowl-edge-connect {
   color: #fff;
   cursor: pointer;
   margin-bottom: 0.5rem;
@@ -100,7 +101,8 @@
 .footer-home:hover,
 .footer-about:hover,
 .footer-contact:hover,
-.footer-disclosure:hover {
+.footer-disclosure:hover,
+.footer-tech-knowl-edge-connect:hover {
   color: #dddddd;
   transition: 0.3s ease-out;
 }

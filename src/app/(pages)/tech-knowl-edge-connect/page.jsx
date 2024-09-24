@@ -1,0 +1,26 @@
+"use client";
+import React from "react";
+import mountainnight from "../images/mountain-at-night.jpg";
+import TechKnowlEdgeConnectSection from "./TechKnowlEdgeConnectSection";
+import Head from "next/head";
+
+export default function TechKnowlEdgeConnect() {
+  return (
+    <div>
+      <Head>
+        <title>Jens Lemke | TechKnowlEdgeConnect</title>
+        <meta
+          name="description"
+          content="Support Information für die App TechKnowlEdgeConnect. Neben einem FAQ stehen Kontaktinformationen zur Verfügung um Fragen zu stellen."
+        />
+      </Head>
+      <h1
+        className="tech-knowl-edge-connect"
+        style={{ backgroundImage: `url(${mountainnight.src})` }}
+      >
+        Im&shy;pres&shy;sum
+      </h1>
+      <TechKnowlEdgeConnectSection />
+    </div>
+  );
+}
