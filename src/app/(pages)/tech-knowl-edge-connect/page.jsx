@@ -18,7 +18,7 @@ export default function TechKnowlEdgeConnect() {
         className="tech-knowl-edge-connect"
         style={{ backgroundImage: `url(${mountainnight.src})` }}
       >
-        Im&shy;pres&shy;sum
+        Tech&shy;Knowl&shy;Edge&shy;Con&shy;nect
       </h1>
       <TechKnowlEdgeConnectSection />
     </div>
