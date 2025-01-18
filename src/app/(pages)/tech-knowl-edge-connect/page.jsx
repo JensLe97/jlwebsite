@@ -1,8 +1,8 @@
 "use client";
+import Head from "next/head";
 import React from "react";
 import mountainnight from "../images/mountain-at-night.jpg";
 import TechKnowlEdgeConnectSection from "./TechKnowlEdgeConnectSection";
-import Head from "next/head";
 
 export default function TechKnowlEdgeConnect() {
   return (
@@ -11,7 +11,7 @@ export default function TechKnowlEdgeConnect() {
         <title>Jens Lemke | TechKnowlEdgeConnect</title>
         <meta
           name="description"
-          content="Support Information für die App TechKnowlEdgeConnect. Neben einem FAQ stehen Kontaktinformationen zur Verfügung um Fragen zu stellen."
+          content="Support Information für die App TechKnowlEdgeConnect. Neben einem FAQ stehen Kontaktinformationen zur Verfügung, um Fragen zu stellen."
         />
       </Head>
       <h1

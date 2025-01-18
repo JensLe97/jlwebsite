@@ -1,15 +1,16 @@
-import AboutImg from "../images/profilepicture.jpg";
+import ResearchImg from "../images/autonomous.jpg";
 import StudyImg from "../images/computer.jpg";
-import JobImg from "../images/autonomous.jpg";
+import JobImg from "../images/devops.jpg";
+import AboutImg from "../images/profilepicture.jpg";
 
 export const InfoDataAboutGeneral = {
   heading: "Infos über mich",
   firstParagraph:
-    "Hi, mein Name ist Jens Lemke und das hier ist meine eigene kleine Website auf der ich mich und meine Projekte vorstelle. Aktuell arbeite ich als Software Engineer bei Continental Engineering Services im Bereich Fahrerassistenzsysteme Mehr über mein Studium und meine Arbeit erfährst du in den folgenden Abschnitten.",
+    "Hi, mein Name ist Jens Lemke und das hier ist meine eigene kleine Website auf der ich mich und meine Projekte vorstelle. Aktuell arbeite ich als DevSecOps Engineer bei der R+V Versicherung. Mehr über mein Studium und meine Arbeit erfährst du in den folgenden Abschnitten.",
   secondParagraph:
     "Neben der Arbeit verbringe ich meine Zeit am liebsten mit meiner Freundin, meiner Familie und meinem Hund. In meiner Freizeit mache ich gerne Musik, genauer gesagt spiele ich Klavier und Gitarre. Außerdem interessiere ich mich sehr für Magie, besonders Kartenmagie und bin immer gerne bereit, ein paar Tricks zu zeigen. Daher auch die Symbole dieser Website.",
   thirdParagraph:
-    "Des Weiteren zählt Badminton spielen, Malen und Zeichnen zu meinen Hobbies. Sowohl mit Acryl als auch mit Bleistift male ich vor allem Landschaften oder andere Naturmotive.",
+    "Des Weiteren zählt Basketball spielen, Malen und Zeichnen zu meinen Hobbies. Sowohl mit Acryl als auch mit Bleistift male ich vor allem Landschaften oder andere Naturmotive.",
   image: AboutImg.src,
   reverse: false,
   delay: 100,
@@ -28,15 +29,28 @@ export const InfoDataAboutStudy = {
   delay: 300,
 };
 
-export const InfoDataAboutJob = {
+export const InfoDataAboutResearch = {
   heading: "Zu meiner beruflichen Erfahrung",
   firstParagraph:
-    "Während des Studiums habe ich seit dem dritten Bachelorsemester an der Uni gearbeitet. Angefangen habe ich als Tutor für Allgemeine Informatik und bin zurzeit Tutor für Digitaltechnik. Zwei Semester lang habe ich Erstsemestler als Mentor beim Einstieg in ihr Studium unterstützt.",
+    "Während des Studiums habe ich seit dem dritten Bachelorsemester an der Uni gearbeitet. Angefangen habe ich als Tutor für Allgemeine Informatik und Tutor für Digitaltechnik. Zwei Semester lang habe ich Erstsemestler als Mentor beim Einstieg in ihr Studium unterstützt.",
   secondParagraph:
     "Von Oktober 2020 bis Juni 2021 war ich als HiWi am Fachgebiet Multimedia Kommunikation beschäftigt. Im Rahmen dieser Arbeit konnte ich zur wissenschaftlichen Recherche im Bereich Ressourcenallokation für kooperatives Fahren sowie zur Implementierung und Evaluation von Simulationen beitragen.",
   thirdParagraph:
-    "Zuerst als Werkstudent und jetzt in Vollzeit arbeite ich bei Continental Engineering Services (CES) im Bereich Virtual Testing & Simulation. Dabei geht es um die Entwicklung von virtuellen Absicherungswerkzeugen für Fahrerassistenzsysteme (ADAS/AD).",
-  image: JobImg.src,
+    "Als Werkstudent und für 2 Jahre in Vollzeit habe ich bei Continental Engineering Services (CES) im Bereich Virtual Testing & Simulation. Dabei ging es um die Entwicklung von virtuellen Absicherungswerkzeugen für Fahrerassistenzsysteme (ADAS/AD).",
+  image: ResearchImg.src,
   reverse: false,
+  delay: 300,
+};
+
+export const InfoDataAboutJob = {
+  heading: "Zu meiner aktuellen Arbeit",
+  firstParagraph:
+    "Aktuell arbeite ich als Software Engineer bei der R+V Versicherung im Bereich DevSecOps. Dabei geht es um die Entwicklung und Bereitstellung von Automatisierungslösungen für die Softwareentwicklung. Als Enabler für die Entwickler und Tester sorge ich für eine reibungslose und sichere Entwicklungsumgebung.",
+  secondParagraph:
+    "Die Erstellung von CI/CD Pipelines, die Integration von Security Scans und die Automatisierung von Tests sind dabei meine Hauptaufgaben. Unter der Verwendung von Tools wie GitLab, SonarQube und Docker habe ich Erfahrung in Programmiersprachen wie Python und Java sowie Linux-Distributionen sammeln können.",
+  thirdParagraph:
+    "Durch die Arbeit in agilen Teams nach SCRUM and SAFe ist ein regelmäßiger Austausch mit unseren Entwickler-Teams und dadurch stetige Verbesserung möglich. Ziel ist es, mit Continous Integration und Continous Deployment die Softwarequalität zu steigern und die Entwicklungszeit zu verkürzen, indem der Build, die Tests und das Deployment automatisiert und Compliance-konform in der Cloud stattfinden.",
+  image: JobImg.src,
+  reverse: true,
   delay: 300,
 };

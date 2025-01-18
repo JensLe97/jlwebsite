@@ -1,15 +1,16 @@
 "use client";
-import React from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import "./Footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagicWandSparkles } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookSquare,
-  faInstagramSquare,
   faGithubSquare,
+  faInstagramSquare,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { faMagicWandSparkles } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import React from "react";
+import "./Footer.css";
 import { FooterForm } from "./FooterForm";
 
 const Footer = () => {
@@ -91,13 +92,22 @@ const Footer = () => {
           </p>
           <div className="social-icons">
             <a
-              className="social-icon-link facebook"
-              href="https://www.facebook.com/jens.lemke.52/"
+              className="social-icon-link github"
+              href="https://github.com/JensLe97"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Facebook"
+              aria-label="GitHub"
             >
-              <FontAwesomeIcon icon={faFacebookSquare} />
+              <FontAwesomeIcon icon={faGithubSquare} />
+            </a>
+            <a
+              className="social-icon-link linkedin"
+              href="https://www.linkedin.com/in/jens-lemke-b2645a217?originalSubdomain=de"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
               className="social-icon-link instagram"
@@ -109,13 +119,13 @@ const Footer = () => {
               <FontAwesomeIcon icon={faInstagramSquare} />
             </a>
             <a
-              className="social-icon-link github"
-              href="https://github.com/JensLe97"
+              className="social-icon-link facebook"
+              href="https://www.facebook.com/jens.lemke.52/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="GitHub"
+              aria-label="Facebook"
             >
-              <FontAwesomeIcon icon={faGithubSquare} />
+              <FontAwesomeIcon icon={faFacebookSquare} />
             </a>
           </div>
         </div>

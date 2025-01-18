@@ -200,7 +200,7 @@ const DisclosureSection = () => {
           Website ist:
         </p>
         <p>
-          Jens Lemke <br /> Neckarstr. 3 <br /> 65439 Flörsheim am Main
+          Jens Lemke <br /> Vorderstr. 9 <br /> 65439 Flörsheim am Main
         </p>
         <p>
           Telefon: +49 (0) 152 53415018
@@ -557,6 +557,15 @@ const DisclosureSection = () => {
               rel="noopener noreferrer"
             >
               Hintergrund Foto erstellt von rawpixel.com - de.freepik.com
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://de.freepik.com/vektoren/devops"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DevOps Vektor Grafik erstellt de.freepik.com
             </a>
           </li>
         </ul>

@@ -64,6 +64,738 @@ const TechKnowlEdgeConnectSection = () => {
     <Section>
       <Container>
         <h1>TechKnowlEdgeConnect Support Information</h1>
+        <h1 id="about">Über diese App</h1>
+        <h2>Was ist TechKnowlEdgeConnect?</h2>
+        <p>
+          Mit TechKnowlEdgeConnect kannst du anschaulich lernen und dein Wissen
+          an einem Ort sammeln. Ob für Schule, Universität oder Alltag, für
+          Inhalte aus zahlreichen Bildungsbereichen bietet die App interaktive
+          Lektionen an. Nach einer kurzen Einführung wird dein Wissen anhand von
+          Fragen mit Multiple Choice oder Lückentexten abgefragt. Erhalte Punkte
+          auf jede korrekt beantwortete Frage und überprüfe dich mit
+          Karteikarten. Für deine Fragen steht sowohl ein Chatbot als auch der
+          Chat mit anderen Usern zur Verfügung, die dich stets mit neuen
+          Inhalten auf dem Laufenden halten können.
+          <br />
+          <br />
+          Aktuelle Fächer:
+          <ul>
+            <li>Informatik</li>
+            <li>Mathematik</li>
+            <li>Biologie</li>
+            <li>Erziehungswissenschaften</li>
+          </ul>
+          <br />
+          Aktuelle Features:
+          <ul>
+            <li>
+              AI Tech: Wenn du etwas nicht weißt oder nachschlagen willst,
+              kannst du einfach AI Tech fragen: Ein Chatbot, der deine Fragen
+              blitzschnell beantwortet.
+            </li>{" "}
+            <li>
+              Ideen: Verfolge die neusten Updates von anderen Usern, um
+              Inspirationen zu erhalten und die stetig weiterzubilden. Lade
+              selbst neue Inhalte (Bilder oder Videos) für die Community hoch
+              oder gib anderen ein Like.{" "}
+            </li>
+            <li>
+              Chat: Bleibe mit anderen Usern oder Tutoren in Verbindung und
+              tausche dich über deine Probleme und Fragen aus. Es gibt bestimmt
+              jemanden, der dir weiterhelfen kann.
+            </li>
+          </ul>
+        </p>
+        <h2>Wer hat die App TechKnowlEdgeConnect entwickelt?</h2>
+        <p>
+          Die App TechKnowlEdgeConnect wurde von Jens Lemke entwickelt. Er ist
+          ein Softwareentwickler und hat die App privat entwickelt, um Schülern
+          und Studenten sowie Studenten zu helfen, sich zu vernetzen und Wissen
+          auszutauschen.
+        </p>
+        <h1 id="support">Hilfe und Support</h1>
+        <h2>FAQ</h2>
+        <h3>Was ist Tech AI in TechKnowlEdgeConnect?</h3>
+        <p>
+          Tech AI ist ein KI-System, das in der App TechKnowlEdgeConnect
+          integriert ist und auf ChatGPT basiert. Es ermöglicht dir, Fragen zu
+          stellen und Antworten zu erhalten. Tech AI kann dir bei der Suche nach
+          Informationen helfen dich beim Lernen unterstützen.
+        </p>
+        <h3>Wo kann ich die App TechKnowlEdgeConnect herunterladen?</h3>
+        <p>
+          Die App TechKnowlEdgeConnect ist im Google Play Store und im Apple App
+          Store verfügbar. Du kannst die App kostenlos herunterladen und
+          installieren. Außerdem ist die Webapp online verfügbar:{" "}
+          <a
+            href="https://tech-knowl-edge-connect.jenslemke.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TechKnowlEdgeConnect
+          </a>
+          .
+        </p>
+        <h3>Kann ich die App TechKnowlEdgeConnect kostenlos nutzen?</h3>
+        <p>
+          Ja, nach der Installation der App TechKnowlEdgeConnect kannst du dich
+          kostenlos registrieren und die App kostenlos nutzen. Es gibt keine
+          versteckten Kosten oder Abonnements und du kannst auf die kompletten
+          Inhalte der App zugreifen, mit anderen Nutzern chatten und alle
+          Features nutzen.
+        </p>
+        <h3>Sind meine Daten bei TechKnowlEdgeConnect sicher?</h3>
+        <p>
+          Ja, deine persönlichen Daten sind bei TechKnowlEdgeConnect sicher. Wir
+          verwenden moderne Verschlüsselungstechnologien, um deine Daten zu
+          schützen. Deine Daten werden vertraulich behandelt und nicht an Dritte
+          weitergegeben.
+        </p>
+        <h1>Nutzungbedingungen</h1>
+        <h2>1. Geltungsbereich</h2>
+        <ul>
+          <li>
+            Die nachfolgenden Nutzungsbedingungen gelten für die Nutzung der
+            Plattform TechKnowlEdgeConnect, die von Jens Lemke angeboten und
+            betrieben wird. Sie gelten für alle Nutzerinnen und Nutzer von
+            TechKnowlEdgeConnect. Für Nutzerinnen und Nutzer, die bei
+            TechKnowlEdgeConnect Lerninhalte einstellen möchten, gelten darüber
+            hinaus Besondere Nutzungsbedingungen.
+          </li>
+          <li>
+            Nähere Angaben zum Urheber sind hier zu finden:{" "}
+            <a href="/tech-knowl-edge-connect#imprint">Impressum</a>
+          </li>
+        </ul>
+        <p> </p>
+        <h2>2. Sprache</h2>
+        <ul>
+          <li>Der Vertragsschluss erfolgt in deutscher Sprache.</li>
+        </ul>
+        <p> </p>
+        <h2>1. Vertragsschluss </h2>
+        <ul>
+          <li>
+            TechKnowlEdgeConnect ist eine Lernplattform (Webseite und Apps für
+            Apple und Android) für Schülerinnen und Schüler sowie Studenten, die
+            Lerninhalte für die Schulfächer, Nachhilfeangebote und
+            Interaktionsmöglichkeiten mit anderen Schülerinnen und Schülern
+            bietet. Sie beinhaltet insbesondere schulische Dokumente und
+            Lerninhalte sowie Hintergrundinformationen, die von Mitgliedern der
+            TechKnowlEdgeConnect-Community eingestellt werden.
+            TechKnowlEdgeConnect bietet kostenlose Inhalte und
+            Nutzungsmöglichkeiten.
+          </li>
+          <li>
+            Das vorliegende Dokument beinhaltet die Allgemeinen
+            Nutzungsbedingungen und bildet die rechtliche Grundlage für die
+            Nutzung von TechKnowlEdgeConnect durch Schülerinnen und Schüler
+            (nachfolgend „Nutzerinnen und Nutzer“ genannt) einschließlich von
+            Nutzerinnen und Nutzer die Lerninhalte bei TechKnowlEdgeConnect
+            einstellen. Sie gelten in ihrer jeweils aktuellen Fassung müssen bei
+            der Registrierung ausdrücklich, und sie sind die Grundlage für die
+            Inanspruchnahme des TechKnowlEdgeConnect-Angebotes.
+          </li>
+          <li>
+            Für Nutzerinnen und Nutzer, die Lerninhalte bei TechKnowlEdgeConnect
+            einstellen möchten, geltend zusätzlich die Besonderen
+            Nutzungsbedingungen die für das Einstellen von Lerninhalten
+            gesondert akzeptiert werden müssen.
+          </li>
+          <li>
+            Bei dem Herunterladen der TechKnowlEdgeConnect-App über den Apple
+            App Store gelten ergänzend zu diesen AGB die Allgemeinen
+            Geschäftsbedingungen von Apple, die hier abrufbar sind:
+            http://www.apple.com/legal/internet-services/itunes/de/terms.html.
+          </li>
+          <li>
+            Bei dem Herunterladen der TechKnowlEdgeConnect-App über den Google
+            Play Store gelten ergänzend zu diesen AGB die Allgemeinen
+            Geschäftsbedingungen des Google Play Store, die hier abrufbar sind:
+            https://play.google.com/intl/ALL_de/about/play-terms/.
+          </li>
+          <li>
+            Diese AGB gelten für Nutzerinnen und Nutzer, die sich für die
+            deutschsprachige Version von TechKnowlEdgeConnect registrieren.
+          </li>
+          <li>
+            Der Vertrag über die kostenlose Variante von TechKnowlEdgeConnect
+            wird grundsätzlich auf unbestimmte Zeit geschlossen. Der Vertrag
+            kann jederzeit über den Nutzeraccount durch Löschen des Accounts
+            gekündigt werden.
+          </li>
+        </ul>
+        <h2>
+          Mindestalter, Registrierung und Zustimmung Deiner Eltern bzw.
+          Erziehungsberechtigten
+        </h2>
+        <ul>
+          <li>
+            Die Nutzung von TechKnowlEdgeConnect setzt eine vorherige
+            Registrierung voraus. Wenn Du jünger bist als sieben Jahre, darfst
+            Du Dich bei TechKnowlEdgeConnect leider nicht registrieren und das
+            Angebot daher leider selbst nicht nutzen.
+          </li>
+          <li>
+            Wenn Du mindestens sieben Jahre alt aber noch nicht 18 Jahre alt
+            bist, müssen Deine Eltern bzw. Erziehungsberechtigten ausdrücklich
+            damit einverstanden sein, dass Du Dich registrierst.
+          </li>
+        </ul>
+        <h2>4. Widerrufsrecht und Erlöschen des Widerrufsrechts</h2>
+        <ul>
+          <li>
+            Die vollständige Widerrufsbelehrung findet sich hier. Bitte beachte:
+            Beim Abschluss des kostenlosen Vertrages erlischt das Widerrufsrecht
+            unmittelbar nach erfolgreicher Registrierung, weil wir unmittelbar
+            den Zugang zu TechKnowlEdgeConnect gewähren und dessen Nutzung
+            ermöglichen, d. h. mit der Erbringung unserer Leistungen beginnen
+            (&sect; 356 Abs. 5 Nr. 1 BGB).
+          </li>
+        </ul>
+        <h2>5. Was Du tun musst und nicht tun darfst</h2>
+        <ul>
+          <li>
+            Du musst Deine Zugangsdaten (Benutzername, Passwort) geheim halten
+            und darfst sie nicht an andere weitergeben. Wenn Du das Gefühl hast
+            oder weißt, dass andere auf Deinen Account zugreifen, sende uns
+            bitte so schnell wie möglich eine E-Mail an
+            techknowledgeconnect@jenslemke.com.
+          </li>
+          <li>
+            Du darfst die Inhalte, die bei TechKnowlEdgeConnect abrufbar sind,
+            nur innerhalb der TechKnowlEdgeConnect-Plattform benutzen und darfst
+            sie nicht an andere weitergeben, im Internet veröffentlichen oder
+            gar an andere verkaufen.
+          </li>
+          <li>
+            Die folgenden Inhalte – egal in welchen TechKnowlEdgeConnect-Bereich
+            und egal in welcher Form (Texte, Medien usw.) – darfst Du bei
+            TechKnowlEdgeConnect nicht hochladen, posten oder sonst verbreiten:
+          </li>
+          <br />
+          <li>Viren oder andere Formen von Programmier-Code;</li>
+          <br />
+          <li>
+            Pornographische, sexistische, fremdenfeindliche, beleidigende,
+            diffamierende, zu Gewalt aufrufende oder Gewalt androhende,
+            Minderheiten unterdrückende oder volksverhetzende Inhalte oder sonst
+            Inhalte, die gegen die guten Sitten verstoßen;
+          </li>
+          <br />
+          <li>
+            Inhalte, welche andere wegen ihrer Herkunft, ihrer Hautfarbe, ihres
+            Geschlechts, ihrer sexuellen Orientierung, etwaigen Krankheiten oder
+            wegen sonstiger Merkmale oder Eigenschaften diskriminieren;
+          </li>
+          <br />
+          <li>
+            Inhalte mit absichtlich irreführenden oder wahrheitswidrigen
+            Inhalten;
+          </li>
+          <br />
+          <li>
+            Urheberrechtlich geschütztes Material oder Inhalte, die solches
+            Material enthalten, ohne hierzu nachweislich berechtigt zu sein;
+          </li>
+          <br />
+          <li>
+            Werbematerial in jeglicher Form, wenn TechKnowlEdgeConnect dem nicht
+            zuvor ausdrücklich in Textform zugestimmt hat;
+          </li>
+          <br />
+          <li>Sonstige rechtswidrige Inhalte;</li>
+          <br />
+          <li>
+            Inhalte, die keinen Bezug zu Wissen und damit keine Lernrelevanz
+            haben.
+          </li>
+          <br />
+          <li>
+            Du hast auch stets unsere Community Guidelines, die Du hier abrufen
+            kannst, zu beachten und zu befolgen.
+          </li>
+          <br />
+          <li>
+            Nenne in Deinen Posts nie die Namen oder sonstigen persönlichen
+            Daten anderer, und auch Deinen eigenen echten Namen und sonstige
+            persönliche Daten von Dir oder anderen Personen solltest Du nicht
+            veröffentlichen.
+          </li>
+          <br />
+        </ul>
+        <p>Folgendes darfst Du ebenfalls nicht tun:</p>
+        <br />
+        <p>
+          Deinen Zugang zu TechKnowlEdgeConnect zwecks Anbahnung von
+          romantischen oder sexuellen Beziehungen missbräuchlich verwenden;
+        </p>
+        <br />
+        <p>
+          Dir oder anderen rechtswidrig Zugang zu TechKnowlEdgeConnect
+          verschaffen;
+        </p>
+        <br />
+        <p>
+          Jegliche automatisierte Nutzung der Plattform und der dort verfügbaren
+          Inhalte, beispielsweise durch die Nutzung von Skripten, um Inhalte zu
+          erstellen oder abzurufen, ist untersagt. Dies gilt auch für derartige
+          nicht-gewerbliche Nutzungen.
+        </p>
+        <br />
+        <p>
+          Bitte beachte: Für die von Dir hochgeladenen oder geposteten Inhalte
+          bist Du selbst verantwortlich und Du musst immer beachten, dass Du –
+          nach den gesetzlichen Vorschriften – für diese Inhalte „geradestehen“
+          musst.
+        </p>
+        <br />
+        <p>
+          Solltest Du einen Verstoß gegen die Nutzungsbedingungen durch andere
+          Nutzerinnen oder Nutzer feststellen, bitten wir Dich, uns hierüber so
+          schnell wie möglich über techknowledgeconnect@jenslemke.com zu
+          informieren.
+        </p>
+        <br />
+        <p>
+          Du darfst nicht mehr als ein Konto bei unserem Dienst haben. Wenn wir
+          dein Konto bereits gekündigt haben, darfst du kein neues Konto
+          erstellen, es sei denn, du hast unsere ausdrückliche schriftliche
+          Genehmigung zur Erstellung eines neuen Kontos.
+        </p>
+        <h2>Moderation und Folgen von Verstößen</h2>
+        <ul>
+          <li>
+            TechKnowlEdgeConnect übernimmt keinerlei Haftung für die
+            Richtigkeit, Vollständigkeit und Geeignetheit der von anderen
+            Nutzerinnen und Nutzern gestellten Informationen. Ebenso wenig
+            übernehmen die anderen Nutzerinnen und Nutzer eine diesbezügliche
+            Haftung.
+          </li>
+          <li>
+            Gleichzeitig achten wir auf die Befolgung unserer Community
+            Guidelines. Vor der Veröffentlichung von Inhalten werden diese
+            jedoch von uns grundsätzlich nicht auf Richtigkeit/Verstoß gegen
+            Gesetze oder unsere Community Guidelines geprüft (hierzu nähere
+            Ausführungen sogleich).
+          </li>
+          <li>
+            Nutzer können Inhalte melden, die dann von unserem Team überprüft
+            werden, ob die Vorgaben eingehalten sind oder qualitativen Faktoren
+            gegen einen Lernwert des Inhalts und damit gegen eine
+            Veröffentlichung sprechen. Führt die Meldung zu einer Entfernung des
+            Inhalts, wirst Du hierüber informiert und Du kannst die Entscheidung
+            anfechten und hierbei auch Gründe für die Anfechtung geben.
+            Anschließend wird die Entscheidung möglichst zeitnah von unserem
+            Team nochmals überprüft. Kommt die Prüfung zum Ergebnis, dass die
+            Entfernung des Inhalts zu Unrecht erfolgte, wird der Inhalt
+            akzeptiert und veröffentlicht. Du erhältst zugleich eine Nachricht
+            hierüber. Wird an der Ablehnung festgehalten, wirst Du hierüber
+            informiert und es werden die Gründe dargelegt, warum der Inhalt
+            abgelehnt wurde. Zudem kann es sein, dass die Entfernung deines
+            Inhalts weitere Folgen hat. Wenn Du meinst, dass die Ablehnung zu
+            Unrecht erfolgte, kannst Du hiergegen vor den zuständigen
+            Zivilgerichten vorgehen.
+          </li>
+          <li>
+            Wenn Du gegen diese Nutzungsbedingungen oder gegen die Community
+            Guidelines verstößt, behalten wir uns vor, Deinen Account zu
+            sperren, Deine Inhalte zu löschen und Deine Zugangsdaten zu sperren.
+          </li>
+        </ul>
+        <h2>Haftung</h2>
+        <ul>
+          <li>
+            Wir haften für Vorsatz und grobe Fahrlässigkeit. Ferner haften wir
+            für die fahrlässige Verletzung von Pflichten, deren Erfüllung die
+            ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht,
+            deren Verletzung die Erreichung des Vertragszwecks gefährdet und auf
+            deren Einhaltung Du als Kunde regelmäßig vertrauen darfst. In diesem
+            Fall haften wir jedoch nur für den vorhersehbaren, vertragstypischen
+            Schaden. Gleiches gilt für Pflichtverletzungen unserer
+            Erfüllungsgehilfen.
+          </li>
+          <li>
+            Die vorstehenden Haftungsausschlüsse gelten nicht bei Verletzung von
+            Leben, Körper und Gesundheit und auch nicht, soweit wir einen Mangel
+            arglistig verschwiegen oder eine Garantie für die Beschaffenheit der
+            Sache übernommen haben. Die Haftung nach dem Produkthaftungsgesetz
+            bleibt unberührt.
+          </li>
+        </ul>
+        <h2>Änderung der AGB</h2>
+        <ul>
+          <li>
+            TechKnowlEdgeConnect ist dazu berechtigt, diese AGB zu ändern,
+            sofern dies notwendig erscheint und die Nutzerinnen und Nutzer
+            hierdurch nicht wider Treu und Glauben benachteiligt wird. Sie
+            können auch geändert werden als Reaktion auf neue technische
+            Entwicklungen, Änderungen der Rechtsprechung, der Rechtslage oder
+            aus gleichwertigen Gründen. Änderungen der AGB werden den
+            Nutzerinnen und Nutzern zuvor in Textform mitgeteilt. Änderungen,
+            die das vertragliche Gleichgewicht zwischen den Parteien erheblich
+            stören, bedürfen der ausdrücklichen Zustimmung der Nutzerinnen und
+            Nutzer. Ansonsten gelten sie als genehmigt, wenn die Nutzerinnen und
+            Nutzer ihnen nicht innerhalb von sechs Wochen nach Zugang der
+            Mitteilung in Textform widersprechen. TechKnowlEdgeConnect wird auf
+            diese und die nachfolgend wiedergegebenen Folgen in der Mitteilung
+            über die Änderungen ausdrücklich hinweisen. Im Falle eines
+            Widerspruches ist TechKnowlEdgeConnect dazu berechtigt, den Vertrag
+            mit einer Frist von zwei Wochen zu kündigen. TechKnowlEdgeConnect
+            steht bei einem Widerspruch gegen neue AGB überdies ein
+            außerordentliches Kündigungsrecht zu, sofern TechKnowlEdgeConnect
+            eine Fortführung des Vertrages unter Berücksichtigung seiner
+            Interessen und er Interessen der Nutzerinnen und Nutzer nicht
+            zumutbar ist.
+          </li>
+        </ul>
+        <h2>Vertragssprache, anwendbares Recht und weitere Hinweise</h2>
+        <ul>
+          <li>
+            Der Vertrag wird in deutscher Sprache geschlossen. Es gilt das Recht
+            der Bundesrepublik Deutschland. Für den Fall, dass Du Deinen
+            gewöhnlichen Aufenthalt in einem Mitgliedsstaat der EU oder der
+            Schweiz hast, bleiben dortige zwingende Bestimmungen unberührt.
+          </li>
+          <li>
+            Die Europäische Union hat eine Plattform zur außergerichtlichen
+            Beilegung verbraucherrechtlicher Streitigkeiten ("OS-Plattform"),
+            die über den Link http://ec.europa.eu/consumers/odr erreichbar ist,
+            eingerichtet. Die Plattform dient als Anlaufstelle für die
+            außergerichtliche Beilegung von Streitigkeiten über vertragliche
+            Verpflichtungen, die sich aus Online-Verträgen ergeben. Gemäß &sect;
+            36 des Gesetzes über Verbraucherstreitbeilegung weist
+            TechKnowlEdgeConnect darauf hin, dass sie weder verpflichtet noch
+            bereit ist, an einem Streitbeilegungsverfahren vor einer
+            Verbraucherschlichtungsstelle teilzunehmen.
+          </li>
+        </ul>
+        <h2>Salvatorische Klausel</h2>
+        <ul>
+          <li>
+            Sollten einzelne Bestimmungen dieses Vertrages unwirksam oder
+            undurchführbar sein oder nach Vertragsschluss unwirksam oder
+            undurchführbar werden, bleibt davon die Wirksamkeit des Vertrages im
+            Übrigen unberührt. An die Stelle der unwirksamen oder
+            undurchführbaren Bestimmung soll diejenige wirksame und
+            durchführbare Regelung treten, deren Wirkungen der wirtschaftlichen
+            Zielsetzung möglichst nahe kommen, die die Vertragsparteien mit der
+            unwirksamen beziehungsweise undurchführbaren Bestimmung verfolgt
+            haben.
+          </li>
+        </ul>
+        <h3>Stand dieser Nutzungsbedingungen: 18.01.2025</h3>
+        <h1 id="privacy">Datenschutzerklärung</h1>
+        <h2>1. Einleitung</h2>
+        <p>
+          Im Folgenden informieren wir über die Verarbeitung personenbezogener
+          Daten bei der Nutzung
+        </p>
+        <ul>
+          <li>unserer Website https://jenslemke.com/tech-knowl-edge-connect</li>
+          <li>unserer App "TechKnowlEdgeConnect"</li>
+        </ul>
+        <p>
+          Personenbezogene Daten sind alle Daten, die auf eine konkrete
+          natürliche Person beziehbar sind, z. B. Ihr Name oder Ihre IP-Adresse.
+        </p>
+        <br />
+        <h3>1.1. Kontaktdaten</h3>
+        <p>
+          Verantwortlicher gem. Art. 4 Abs. 7 EU-Datenschutz-Grundverordnung
+          (DSGVO) ist Jens Lemke, Vorderstr. 9, 65439 Flörsheim, Deutschland,
+          E-Mail: techknowledgeconnect@jenslemke.com.
+        </p>
+        <br />
+        <h3>
+          1.2. Umfang der Datenverarbeitung, Verarbeitungszwecke und
+          Rechtsgrundlagen
+        </h3>
+        <p>
+          Den Umfang der Verarbeitung der Daten, Verarbeitungszwecke und
+          Rechtsgrundlagen führen wir im Detail weiter unten aus. Als
+          Rechtsgrundlage für eine Datenverarbeitung kommen grundsätzlich die
+          folgenden in Betracht:
+        </p>
+        <br />
+        <ul>
+          <li>
+            Art. 6 Abs. 1 S. 1 it. a DSGVO dient uns als Rechtsgrundlage für
+            Verarbeitungsvorgänge, für die wir eine Einwilligung einholen.
+          </li>
+          <li>
+            Art. 6 Abs. 1 S. 1 lit. b DSGVO ist Rechtsgrundlage, soweit die
+            Verarbeitung personenbezogener Daten zur Erfüllung eines Vertrages
+            erforderlich ist, z.B. wenn ein Seitenbesucher von uns ein Produkt
+            erwirbt oder wir für ihn eine Leistung ausführen. Diese
+            Rechtsgrundlage gilt auch für Verarbeitungen, die für
+            vorvertragliche Maßnahmen erforderlich sind, etwa bei Anfragen zu
+            unseren Produkten oder Leistungen.
+          </li>
+          <li>
+            Art. 6 Abs. 1 S. 1 lit. c DSGVO findet Anwendung, wenn wir mit der
+            Verarbeitung personenbezogener Daten eine rechtliche Verpflichtung
+            erfüllen, wie es z.B. im Steuerrecht der Fall sein kann.
+          </li>
+          <li>
+            Art. 6 Abs. 1 S. 1 lit. f DSGVO dient als Rechtsgrundlage, wenn wir
+            uns zur Verarbeitung personenbezogener Daten auf berechtigte
+            Interessen berufen können, z.B. für Cookies, die für den technischen
+            Betrieb unserer Website erforderlich sind.
+          </li>
+        </ul>
+        <h3>1.3. Datenverarbeitung außerhalb des EWR</h3>
+        <p>
+          Soweit wir Daten an Dienstleister oder sonstige Dritte außerhalb des
+          EWR übermitteln, garantieren die Sicherheit der Daten bei der
+          Weitergabe, soweit (z.B. für Großbritannien, Kanada und Israel)
+          vorhanden, Angemessenheitsbeschlüsse der EU-Kommission (Art. 45 Ab. 3
+          DSGVO).
+        </p>
+        <br />
+        <p>
+          Wenn kein Angemessenheitsbeschluss existiert (z.B. für die USA), sind
+          Rechtsgrundlage für die Datenweitergabe im Regelfall, also soweit wir
+          keinen abweichenden Hinweis geben, Standardvertragsklauseln. Diese
+          sind ein von der EU-Kommission verabschiedetes Regelwerk und Teil des
+          Vertrags mit dem jeweiligen Dritten. Nach Art. 46 Abs. 2 lit. b DSGVO
+          gewährleisten sie die Sicherheit der Datenweitergabe. Viele der
+          Anbieter haben über die Standardvertragsklauseln hinausgehende
+          vertragliche Garantien abgegeben, die die Daten über die
+          Standardvertragsklauseln hinaus schützen. Das sind z.B. Garantien
+          hinsichtlich der Verschlüsselung der Daten oder hinsichtlich einer
+          Pflicht des Dritten zum Hinweis an Betroffene, wenn
+          Strafverfolgungsorgane auf Daten zugreifen wollen.
+        </p>
+        <br />
+        <h3>1.4. Speicherdauer</h3>
+        <p>
+          Sofern nicht im Rahmen dieser Datenschutzerklärung ausdrücklich
+          angegeben, werden die bei uns gespeicherten Daten gelöscht, sobald sie
+          für ihre Zweckbestimmung nicht mehr erforderlich sind und der Löschung
+          keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Sofern die
+          Daten nicht gelöscht werden, weil sie für andere und gesetzlich
+          zulässige Zwecke erforderlich sind, wird ihre Verarbeitung
+          eingeschränkt, d.h. die Daten werden gesperrt und nicht für andere
+          Zwecke verarbeitet. Das gilt z.B. für Daten, die wir aus handels- oder
+          steuerrechtlichen Gründen aufbewahren müssen.
+        </p>
+        <br />
+        <h3>1.5. Rechte der Betroffenen</h3>
+        <p>
+          Betroffene haben gegenüber uns folgende Rechte hinsichtlich der sie
+          betreffenden personenbezogenen Daten:
+        </p>
+        <br />
+        <ul>
+          <li>Recht auf Auskunft,</li>
+          <li>Recht auf Berichtigung oder Löschung,</li>
+          <li>Recht auf Einschränkung der Verarbeitung,</li>
+          <li>Recht auf Widerspruch gegen die Verarbeitung,</li>
+          <li>Recht auf Datenübertragbarkeit,</li>
+          <li>Recht, eine erteilte Einwilligung jederzeit zu widerrufen.</li>
+        </ul>
+        <p>
+          Betroffene haben zudem das Recht, sich bei einer
+          Datenschutz-Aufsichtsbehörde über die Verarbeitung ihrer
+          personenbezogenen Daten zu beschweren. Kontaktdaten der
+          Datenschutz-Aufsichtsbehörden sind unter
+          https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html
+          abrufbar.
+        </p>
+        <br />
+        <h3>1.6. Pflicht zur Bereitstellung von Daten</h3>
+        <p>
+          Kunden, Interessenten oder Dritte müssen uns im Rahmen einer
+          Geschäftsbeziehung oder sonstigen Beziehung nur diejenigen
+          personenbezogenen Daten bereitstellen, die für die Begründung,
+          Durchführung und Beendigung der Geschäftsbeziehung oder für die
+          sonstige Beziehung erforderlich sind oder zu deren Erhebung wir
+          gesetzlich verpflichtet sind. Ohne diese Daten werden wir in der Regel
+          den Abschluss eines Vertrages oder die Bereitstellung einer Leistung
+          ablehnen müssen oder einen bestehenden Vertrag oder sonstige Beziehung
+          nicht mehr durchführen können.
+        </p>
+        <br />
+        <p>Pflichtangaben sind als solche gekennzeichnet.</p>
+        <br />
+        <h3>1.7. Keine automatische Entscheidungsfindung im Einzelfall</h3>
+        <p>
+          Zur Begründung und Durchführung einer Geschäftsbeziehung oder
+          sonstigen Beziehung nutzen wir grundsätzlich keine vollautomatisierte
+          Entscheidungsfindung gemäß Artikel 22 DSGVO. Sollten wir diese
+          Verfahren in Einzelfällen einsetzen, werden wir hierüber gesondert
+          informieren, sofern dies gesetzlich geboten ist.
+        </p>
+        <br />
+        <h3>1.8. Kontaktaufnahme</h3>
+        <p>
+          Bei der Kontaktaufnahme mit uns, z.B. per E-Mail oder Telefon, werden
+          die uns mitgeteilten Daten (z.B. Namen und E-Mail-Adressen) von uns
+          gespeichert, um Fragen zu beantworten. Rechtsgrundlage für die
+          Verarbeitung ist unser berechtigtes Interesse (Art. 6 Abs. 1 S. 1 lit.
+          f DSGVO), an uns gerichtete Anfragen zu beantworten. Die in diesem
+          Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung
+          nicht mehr erforderlich ist, oder schränken die Verarbeitung ein,
+          falls gesetzliche Aufbewahrungspflichten bestehen.
+        </p>
+        <br />
+        <h3>1.9. Kundenumfragen</h3>
+        <p>
+          Von Zeit zu Zeit führen wir Kundenumfragen durch, um unsere Kunden und
+          ihre Wünsche besser kennenzulernen. Dabei erheben wir die jeweils
+          abgefragten Daten. Es ist unser berechtigtes Interesse, unsere Kunden
+          und ihre Wünsche besser kennenzulernen, so dass Rechtsgrundlage der
+          damit einhergehenden Datenverarbeitung Art. 6 Abs. 1 S. 1 lit f DSGVO
+          ist. Die Daten löschen wir, wenn die Ergebnisse der Umfragen
+          ausgewertet sind.
+        </p>
+        <br />
+        <h2>2. Newsletter</h2>
+        <p>
+          Wir behalten uns vor, Kunden, die bereits Dienstleistungen von uns in
+          Anspruch genommen haben oder Waren gekauft gekauft haben, von Zeit zu
+          Zeit per E-Mail oder auf anderem Weg elektronisch über unsere Angebote
+          zu informieren, falls sie dem nicht widersprochen haben.
+          Rechtsgrundlage für diese Datenverarbeitung ist Art. 6 Abs. 1 S. 1
+          lit. f DSGVO. Unser berechtigtes Interesse liegt in der Direktwerbung
+          (Erwägungsgrund 47 DSGVO). Kunden können der Verwendung ihrer
+          E-Mail-Adresse zu Werbezwecken jederzeit ohne zusätzliche Kosten
+          widersprechen, zum Beispiel über den Link am Ende einer jeden E-Mail
+          oder per E-Mail an unsere oben genannte E-Mail-Adresse.
+        </p>
+        <br />
+        <h2>3. Datenverarbeitung auf unserer Website</h2>
+        <h3>3.1. Informatorische Nutzung der Website</h3>
+        <p>
+          Bei der informatorischen Nutzung der Website, also wenn Seitenbesucher
+          uns nicht gesondert Informationen übermitteln, erheben wir die
+          personenbezogenen Daten, die der Browser an unseren Server
+          übermittelt, um die Stabilität und Sicherheit unserer Website zu
+          gewährleisten. Darin liegt unser berechtigtes Interesse, so dass
+          Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.
+        </p>
+        <br />
+        <p>Diese Daten sind:</p>
+        <ul>
+          <li>IP-Adresse</li>
+          <li>Datum und Uhrzeit der Anfrage</li>
+          <li>Zeitzonendifferenz zur Greenwich Mean Time (GMT)</li>
+          <li>Inhalt der Anfrage (konkrete Seite)</li>
+          <li>Zugriffsstatus/HTTP-Statuscode</li>
+          <li>jeweils übertragene Datenmenge</li>
+          <li>Website, von der die Anfrage kommt</li>
+          <li>Browser</li>
+          <li>Betriebssystem und dessen Oberfläche</li>
+          <li>Sprache und Version der Browsersoftware.</li>
+        </ul>
+        <p>
+          Diese Daten werden außerdem in Logfiles gespeichert. Sie werden
+          gelöscht, wenn ihre Speicherung nicht mehr erforderlich ist,
+          spätestens nach 14 Tagen.
+        </p>
+        <br />
+        <h3>3.2. Webhosting und Bereitstellung der Website</h3>
+        <p>
+          Diese Website wird bei einem externen Dienstleister gehostet (Hoster).
+          Die personenbezogenen Daten, die auf dieser Website erfasst werden,
+          werden auf den Servern des Hosters gespeichert. Hierbei kann es sich
+          v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten,
+          Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige
+          Daten, die über eine Website generiert werden, handeln.
+        </p>
+        <br />
+        <p>
+          Es ist unser berechtigtes Interesse, eine Website zur Verfügung zu
+          stellen, so dass die Rechtsgrundlage der beschriebenen
+          Datenverarbeitung Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.
+        </p>
+        <br />
+        <h3>3.3. Kontaktformular</h3>
+        <p>
+          Bei Kontaktaufnahme über das Kontaktformular auf unserer Website
+          speichern wir die dort abgefragten Daten und den Inhalt der
+          Nachricht.Rechtsgrundlage für die Verarbeitung ist unser berechtigtes
+          Interesse, an uns gerichtete Anfragen zu beantworten. Rechtsgrundlage
+          für die Verarbeitung ist deshalb Art. 6 Abs. 1 S. 1 lit. f DSGVO.Die
+          in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die
+          Speicherung nicht mehr erforderlich ist, oder schränken die
+          Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.
+        </p>
+        <br />
+        <h3>3.4. Single-Sign-On-Verfahren Apple</h3>
+        <p>
+          Seitenbesucher können sich unserer Website mit Hilfe eines
+          Single-Sign-On-Verfahrens anmelden. Dabei nutzen sie die für einen
+          anderen Anbieter bereits erstellten Anmeldedaten. Voraussetzung ist,
+          dass der Seitenbesucher bereits bei dem jeweiligen Anbieter
+          registriert ist. Wenn sich ein Seitenbesucher mittels
+          Single-Sign-On-Verfahrens anmeldet, erhalten wir vom Anbieter die
+          Information, dass der Seitenbesucher bei dem Anbieter eingeloggt ist
+          und der Anbieter erhält die Information, dass der Seitenbesucher das
+          Single-Sign-On-Verfahren auf unserer Website nutzt. Abhängig von den
+          Einstellungen des Seitenbesuchers in seinem Konto auf der Seite des
+          Anbieters, kann es sein, dass uns vom Anbieter zusätzliche
+          Informationen zur Verfügung gestellt werden. Die Rechtsgrundlage
+          dieser Verarbeitung ist die Einwilligung des Seitenbesuchers, der sich
+          mit dem Konto bei uns anmeldet (Art. 6 Abs. 1 S. 1 lit. a DSGVO).
+          Anbieter des Verfahrens ist Apple Inc., Infinite Loop, Cupertino, CA
+          95014, USA (Datenschutzerklärung:
+          https://www.apple.com/legal/privacy/de-ww/).
+        </p>
+        <br />
+        <h3>3.5. Single-Sign-On-Verfahren Google</h3>
+        <p>
+          Seitenbesucher können sich unserer Website mit Hilfe eines
+          Single-Sign-On-Verfahrens anmelden. Dabei nutzen sie die für einen
+          anderen Anbieter bereits erstellten Anmeldedaten. Voraussetzung ist,
+          dass der Seitenbesucher bereits bei dem jeweiligen Anbieter
+          registriert ist. Wenn sich ein Seitenbesucher mittels
+          Single-Sign-On-Verfahrens anmeldet, erhalten wir vom Anbieter die
+          Information, dass der Seitenbesucher bei dem Anbieter eingeloggt ist
+          und der Anbieter erhält die Information, dass der Seitenbesucher das
+          Single-Sign-On-Verfahren auf unserer Website nutzt. Abhängig von den
+          Einstellungen des Seitenbesuchers in seinem Konto auf der Seite des
+          Anbieters, kann es sein, dass uns vom Anbieter zusätzliche
+          Informationen zur Verfügung gestellt werden. Die Rechtsgrundlage
+          dieser Vereinbarung ist die Einwilligung des Seitenbesuchers, der sich
+          mit dem Konto bei uns anmeldet (Art. 6 Abs. 1 S. 1 lit. a DSGVO).
+          Anbieter des Verfahrens ist Google Ireland Limited, Gordon House,
+          Barrow Street, Dublin 4, Irland (Datenschutzerklärung:
+          https://policies.google.com/privacy).
+        </p>
+        <br />
+        <h2>Drittanbieter</h2>
+        <p>
+          Wir setzen die folgenden Technologien und Dienste von Drittanbietern
+          auf Grundlage der Einwilligung der Nutzer im Sinne von &sect; 25 Abs.
+          1 S. 1 TTDSG ein.
+        </p>
+        <h3>Google Firebase (Website/App)</h3>
+        <p>
+          Für unsere App setzen wir den Cloud-Dienst Google Firebase des
+          Anbieters Google Cloud EMEA Limited, Gordon House, Barrow Street,
+          Dublin 4, Irland. ein. Durch die Nutzung des Dienstes kann es zu einer
+          Datenübertragung in ein Drittland kommen (USA). Der Anbieter ist gemäß
+          EU-U.S. Data Privacy Framework zertifiziert und bietet daher ein
+          angemessenes Datenschutzniveau. Weitere Informationen sind in den
+          Datenschutzinformationen des Anbieters unter folgender URL zu finden:
+          https://firebase.google.com/support/privacy?hl=de
+        </p>
+        <br />
+        <h2>5. Änderungen dieser Datenschutzerklärung</h2>
+        <p>
+          Wir behalten uns das Recht vor, diese Datenschutzerklärung zu ändern,
+          um sie an geänderte Rechtslagen, oder bei Änderungen des Dienstes oder
+          der Datenverarbeitung anzupassen. Dies gilt jedoch nur im Hinblick auf
+          Erklärungen zur Datenverarbeitung. Sofern Einwilligungen der Nutzer
+          erforderlich sind oder Bestandteile der Datenschutzerklärung
+          Regelungen des Vertragsverhältnisses mit den Nutzern enthalten,
+          erfolgen die Änderungen nur mit Zustimmung der Nutzer.
+        </p>
+        <br />
+        <h3>Stand dieser Datenschutzerklärung: 18.01.2025</h3>
+        <h1 id="imprint">Impressum</h1>
         <h2>Angaben gemäß &sect; 5 TMG</h2>
         <p>
           Jens Lemke
@@ -75,7 +807,7 @@ const TechKnowlEdgeConnectSection = () => {
         <p>
           Telefon: +49 (0) 152 53415018
           <br />
-          E-Mail: mail@lemkejens.de
+          E-Mail: techknowledgeconnect@jenslemke.com
         </p>
         <h2>Inhaltlich Verantwortlicher gem. &sect; 55 II RStV:</h2>
         <p>
@@ -83,399 +815,52 @@ const TechKnowlEdgeConnectSection = () => {
           <br />
           Anschrift s.o.
         </p>
-        <h1>Datenschutz&shy;erkl&auml;rung</h1>
-        <h2>1. Datenschutz auf einen Blick</h2>
-        <h3>Allgemeine Hinweise</h3>
+        <h2>Haftung für Inhalte</h2>
         <p>
-          Die folgenden Hinweise geben einen einfachen &Uuml;berblick
-          dar&uuml;ber, was mit Ihren personenbezogenen Daten passiert, wenn Sie
-          diese Website besuchen. Personenbezogene Daten sind alle Daten, mit
-          denen Sie pers&ouml;nlich identifiziert werden k&ouml;nnen.
-          Ausf&uuml;hrliche Informationen zum Thema Datenschutz entnehmen Sie
-          unserer unter diesem Text aufgef&uuml;hrten Datenschutzerkl&auml;rung.
+          Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für
+          die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir
+          jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß
+          &sect; 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
+          allgemeinen Gesetzen verantwortlich. Nach &sect;&sect; 8 bis 10 TMG
+          sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte
+          oder gespeicherte fremde Informationen zu überwachen oder nach
+          Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+          Verpflichtungen zur Entfernung oder Sperrung der Nutzung von
+          Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.
+          Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der
+          Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden
+          von entsprechenden Rechtsverletzungen werden wir diese Inhalte
+          umgehend entfernen.
         </p>
-        <h3>Datenerfassung auf dieser Website</h3>{" "}
-        <h4>
-          Wer ist verantwortlich f&uuml;r die Datenerfassung auf dieser Website?
-        </h4>{" "}
+        <h2>Haftung für Links</h2>
         <p>
-          Die Datenverarbeitung auf dieser Website erfolgt durch den
-          Websitebetreiber. Dessen Kontaktdaten k&ouml;nnen Sie dem Abschnitt
-          &bdquo;Hinweis zur Verantwortlichen Stelle&ldquo; in dieser
-          Datenschutzerkl&auml;rung entnehmen.
-        </p>{" "}
-        <h4>Wie erfassen wir Ihre Daten?</h4>{" "}
-        <p>
-          Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese
-          mitteilen. Hierbei kann es sich z.&nbsp;B. um Daten handeln, die Sie
-          in ein Kontaktformular eingeben.
+          Unser Angebot enthält Links zu externen Websites Dritter, auf deren
+          Inhalte wir keinen Einfluss haben. Deshalb können wir für diese
+          fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der
+          verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der
+          Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der
+          Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige
+          Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine
+          permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne
+          konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei
+          Bekanntwerden von Rechtsverletzungen werden wir derartige Links
+          umgehend entfernen.
         </p>
+        <h2>Urheberrecht</h2>
         <p>
-          Andere Daten werden automatisch oder nach Ihrer Einwilligung beim
-          Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem
-          technische Daten (z.&nbsp;B. Internetbrowser, Betriebssystem oder
-          Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt
-          automatisch, sobald Sie diese Website betreten.
-        </p>{" "}
-        <h4>Wof&uuml;r nutzen wir Ihre Daten?</h4>{" "}
-        <p>
-          Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung
-          der Website zu gew&auml;hrleisten. Andere Daten k&ouml;nnen zur
-          Analyse Ihres Nutzerverhaltens verwendet werden.
+          Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
+          Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
+          Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
+          Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des
+          jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite
+          sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+          Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt
+          wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden
+          Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf
+          eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
+          entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen
+          werden wir derartige Inhalte umgehend entfernen.
         </p>
-        <h4>Welche Rechte haben Sie bez&uuml;glich Ihrer Daten?</h4>{" "}
-        <p>
-          Sie haben jederzeit das Recht, unentgeltlich Auskunft &uuml;ber
-          Herkunft, Empf&auml;nger und Zweck Ihrer gespeicherten
-          personenbezogenen Daten zu erhalten. Sie haben au&szlig;erdem ein
-          Recht, die Berichtigung oder L&ouml;schung dieser Daten zu verlangen.
-          Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben,
-          k&ouml;nnen Sie diese Einwilligung jederzeit f&uuml;r die Zukunft
-          widerrufen. Au&szlig;erdem haben Sie das Recht, unter bestimmten
-          Umst&auml;nden die Einschr&auml;nkung der Verarbeitung Ihrer
-          personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein
-          Beschwerderecht bei der zust&auml;ndigen Aufsichtsbeh&ouml;rde zu.
-        </p>{" "}
-        <p>
-          Hierzu sowie zu weiteren Fragen zum Thema Datenschutz k&ouml;nnen Sie
-          sich jederzeit an uns wenden.
-        </p>
-        <h3>Analyse-Tools und Tools von Dritt&shy;anbietern</h3>{" "}
-        <p>
-          Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch
-          ausgewertet werden. Das geschieht vor allem mit sogenannten
-          Analyseprogrammen.
-        </p>{" "}
-        <p>
-          Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in
-          der folgenden Datenschutzerkl&auml;rung.
-        </p>
-        <h2>2. Hosting und Content Delivery Networks (CDN)</h2>
-        <h3>Externes Hosting</h3>
-        <p>
-          Diese Website wird bei einem externen Dienstleister gehostet (Hoster).
-          Die personenbezogenen Daten, die auf dieser Website erfasst werden,
-          werden auf den Servern des Hosters gespeichert. Hierbei kann es sich
-          v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten,
-          Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige
-          Daten, die über eine Website generiert werden, handeln.
-        </p>
-        <p>
-          Der Einsatz des Hosters erfolgt zum Zwecke der Vertragserfüllung
-          gegenüber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1
-          lit. b DSGVO) und im Interesse einer sicheren, schnellen und
-          effizienten Bereitstellung unseres Online-Angebots durch einen
-          professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO).
-        </p>
-        <p>
-          Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur
-          Erfüllung seiner Leistungspflichten erforderlich ist und unsere
-          Weisungen in Bezug auf diese Daten befolgen.
-        </p>
-        <h2>3. Allgemeine Hinweise und Pflichtinformationen</h2>
-        <h3>Datenschutz</h3>
-        <p>
-          Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten
-          sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und
-          entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser
-          Datenschutzerklärung.
-        </p>
-        <p>
-          Wenn Sie diese Website benutzen, werden verschiedene personenbezogene
-          Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie
-          persönlich identifiziert werden können. Die vorliegende
-          Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir
-          sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das
-          geschieht.
-        </p>
-        <p>
-          Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B.
-          bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.
-          Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist
-          nicht möglich.
-        </p>
-        <h3>Hinweis zur verantwortlichen Stelle</h3>
-        <p>
-          Die verantwortliche Stelle für die Datenverarbeitung auf dieser
-          Website ist:
-        </p>
-        <p>
-          Jens Lemke <br /> Neckarstr. 3 <br /> 65439 Flörsheim am Main
-        </p>
-        <p>
-          Telefon: +49 (0) 152 53415018
-          <br />
-          E-Mail: mail@lemkejens.de
-        </p>
-        <p>
-          Verantwortliche Stelle ist die natürliche oder juristische Person, die
-          allein oder gemeinsam mit anderen über die Zwecke und Mittel der
-          Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen
-          o. Ä.) entscheidet.
-        </p>
-        <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
-        <p>
-          Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen
-          Einwilligung möglich. Sie können eine bereits erteilte Einwilligung
-          jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf
-          erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
-        </p>
-        <h3>
-          Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie
-          gegen Direktwerbung (Art. 21 DSGVO)
-        </h3>
-        <p>
-          Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 lit. e oder
-          f DSGVO erfolgt, haben Sie jederzeit das Recht, aus Gründen, die sich
-          aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer
-          personenbezogenen Daten Widerspruch einzulegen; dies gilt auch für ein
-          auf diese Bestimmungen gestütztes Profiling. Die jeweilige
-          Rechtsgrundlage, auf denen eine Verarbeitung beruht, entnehmen sie
-          dieser Datenschutzerklärung. Wenn Sie Widerspruch einlegen, werden wir
-          Ihre betroffenen personenbezogenen Daten nicht mehr verarbeiten, es
-          sei denn, wir können zwingende schutzwürdige Gründe für die
-          Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten
-          überwiegen oder die Verarbeitung dient der Geltendmachung, Ausübung
-          oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs.
-          1 DSGVO).
-        </p>
-        <p>
-          Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu
-          betreiben, so haben sie das Recht, jederzeit Widerspruch gegen die
-          Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke
-          derartiger Werbung einzulegen; dies gilt auch für das Profiling,
-          soweit es mit solcher Direktwerbung in Verbindung steht. Wenn Sie
-          widersprechen, werden ihre personenbezogenen Daten anschließend nicht
-          mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21
-          Abs. 2 DSGVO).
-        </p>
-        <h3>Beschwerderecht bei der zuständigen Aufsichtsbehörde</h3>
-        <p>
-          Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein
-          Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem
-          Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes
-          oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht
-          besteht unbeschadet anderweitiger verwaltungsrechtlicher oder
-          gerichtlicher Rechtsbehelfe.
-        </p>
-        <h3>Recht auf Datenübertragbarkeit</h3>
-        <p>
-          Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung
-          oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich
-          oder an einen Dritten in einem gängigen, maschinenlesbaren Format
-          aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an
-          einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es
-          technisch machbar ist.
-        </p>
-        <h3>SSL- bzw. TLS-Verschlüsselung</h3>
-        <p>
-          Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der
-          Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder
-          Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw.
-          TLSVerschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran,
-          dass die Adresszeile des Browsers von „http://“ auf „https://“
-          wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
-        </p>
-        <p>
-          Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die
-          Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen
-          werden.
-        </p>
-        <h3>Auskunft, Löschung und Berichtigung</h3>
-        <p>
-          Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit
-          das Recht auf unentgeltliche Auskunft über Ihre gespeicherten
-          personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck
-          der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder
-          Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema
-          personenbezogene Daten können Sie sich jederzeit an uns wenden.
-        </p>
-        <h3>Recht auf Einschränkung der Verarbeitung</h3>
-        <p>
-          Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer
-          personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit
-          an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in
-          folgenden Fällen:
-        </p>
-        <ul>
-          <li>
-            Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten
-            personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit,
-            um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das
-            Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen
-            Daten zu verlangen.
-          </li>
-          <li>
-            Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig
-            geschah/geschieht, können Sie statt der Löschung die Einschränkung
-            der Datenverarbeitung verlangen.
-          </li>
-          <li>
-            Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie
-            jedoch zur Ausübung, Verteidigung oder Geltendmachung von
-            Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung
-            die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu
-            verlangen.
-          </li>
-          <li>
-            Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt
-            haben, muss eine Abwägung zwischen Ihren und unseren Interessen
-            vorgenommen werden. Solange noch nicht feststeht, wessen Interessen
-            überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung
-            Ihrer personenbezogenen Daten zu verlangen.
-          </li>
-        </ul>
-        <p>
-          Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt
-          haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit
-          Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung
-          von Rechtsansprüchen oder zum Schutz der Rechte einer anderen
-          natürlichen oder juristischen Person oder aus Gründen eines wichtigen
-          öffentlichen Interesses der Europäischen Union oder eines
-          Mitgliedstaats verarbeitet werden.
-        </p>
-        <h2>4. Datenerfassung auf dieser Website</h2>
-        <h3>Kontaktformular</h3>
-        <p>
-          Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre
-          Angaben aus dem Anfrageformular inklusive der von Ihnen dort
-          angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den
-          Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir
-          nicht ohne Ihre Einwilligung weiter.
-        </p>
-        <p>
-          Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1
-          lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags
-          zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen
-          erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf
-          unserem berechtigten Interesse an der effektiven Bearbeitung der an
-          uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer
-          Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt
-          wurde.
-        </p>
-        <p>
-          Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei
-          uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur
-          Speicherung widerrufen oder der Zweck für die Datenspeicherung
-          entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage).
-          Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen
-          – bleiben unberührt.
-        </p>
-        <h3>Anfrage per E-Mail, Telefon oder Telefax</h3>
-        <p>
-          Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre
-          Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten
-          (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns
-          gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre
-          Einwilligung weiter.
-        </p>
-        <p>
-          Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1
-          lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags
-          zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen
-          erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf
-          unserem berechtigten Interesse an der effektiven Bearbeitung der an
-          uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer
-          Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt
-          wurde.
-        </p>
-        <p>
-          Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben
-          bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur
-          Speicherung widerrufen oder der Zweck für die Datenspeicherung
-          entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens).
-          Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche
-          Aufbewahrungsfristen – bleiben unberührt.
-        </p>
-        <h2>5. Plugins und Tools</h2>
-        <h3>Google Web Fonts</h3>
-        <p>
-          Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so
-          genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf
-          einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren
-          Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
-        </p>
-        <p>
-          Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu
-          den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis
-          darüber, dass über Ihre IP-Adresse diese Website aufgerufen wurde. Die
-          Nutzung von Google WebFonts erfolgt auf Grundlage von Art. 6 Abs. 1
-          lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an
-          der einheitlichen Darstellung des Schriftbildes auf seiner Website.
-          Sofern eine entsprechende Einwilligung abgefragt wurde (z. B. eine
-          Einwilligung zur Speicherung von Cookies), erfolgt die Verarbeitung
-          ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die
-          Einwilligung ist jederzeit widerrufbar.
-        </p>
-        <p>
-          Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine
-          Standardschrift von Ihrem Computer genutzt.
-        </p>
-        <p>
-          Weitere Informationen zu Google Web Fonts finden Sie unter{" "}
-          <a
-            href="https://developers.google.com/fonts/faq"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://developers.google.com/fonts/faq
-          </a>{" "}
-          und in der Datenschutzerklärung von Google:{" "}
-          <a
-            href="https://policies.google.com/privacy?hl=de"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://policies.google.com/privacy?hl=de
-          </a>
-          .
-        </p>
-        <h3>Font Awesome</h3>
-        <p>
-          Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten und
-          Symbolen Font Awesome. Anbieter ist die Fonticons, Inc., 6 Porter Road
-          Apartment 3R, Cambridge, Massachusetts, USA.
-        </p>
-        <p>
-          Beim Aufruf einer Seite lädt Ihr Browser die benötigten Fonts in ihren
-          Browsercache, um Texte, Schriftarten und Symbole korrekt anzuzeigen.
-          Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu
-          den Servern von Font Awesome aufnehmen. Hierdurch erlangt Font Awesome
-          Kenntnis darüber, dass über Ihre IP-Adresse diese Website aufgerufen
-          wurde. Die Nutzung von Font Awesome erfolgt auf Grundlage von Art. 6
-          Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an der
-          einheitlichen Darstellung des Schriftbildes auf unserer Website.
-          Sofern eine entsprechende Einwilligung abgefragt wurde (z. B. eine
-          Einwilligung zur Speicherung von Cookies), erfolgt die Verarbeitung
-          ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die
-          Einwilligung ist jederzeit widerrufbar.
-        </p>
-        <p>
-          Wenn Ihr Browser Font Awesome nicht unterstützt, wird eine
-          Standardschrift von Ihrem Computer genutzt.
-        </p>
-        <p>
-          Weitere Informationen zu Font Awesome finden Sie und in der
-          Datenschutzerklärung von Font Awesome unter:{" "}
-          <a
-            href="https://fontawesome.com/privacy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://fontawesome.com/privacy
-          </a>
-          .
-        </p>
-        <h4>
-          Quelle:{" "}
-          <a
-            href="https://www.e-recht24.de/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            e-recht24.de
-          </a>
-        </h4>
       </Container>
     </Section>
   );

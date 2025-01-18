@@ -5,6 +5,7 @@ import {
   InfoDataAboutGeneral,
   InfoDataAboutJob,
   InfoDataAboutStudy,
+  InfoDataAboutResearch,
 } from "../data/InfoData";
 
 import mountains from "../images/mountains.jpg";
@@ -20,6 +21,7 @@ export default function About() {
       </h1>
       <InfoSection {...InfoDataAboutGeneral} />
       <InfoSection {...InfoDataAboutStudy} />
+      <InfoSection {...InfoDataAboutResearch} />
       <InfoSection {...InfoDataAboutJob} />
     </div>
   );

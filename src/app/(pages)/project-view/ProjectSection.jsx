@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Section = styled.div`
-  padding: 100px 0 160px;
+  padding: 80px 0 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +12,7 @@ const ProjectWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
+  margin: 50px auto;
   @media screen and (max-width: 960px) {
     margin: 0 50px;
     display: flex;
@@ -41,7 +41,7 @@ const ProjectCard = styled.a`
   height: 400px;
   text-decoration: none;
   border-radius: 4px;
-  &:nth-child(2) {
+  &:nth-child(odd) {
     margin: 24px;
   }
   &:hover {
@@ -103,6 +103,80 @@ function ProjectSection() {
       <ProjectWrapper>
         <ProjectContainer>
           <ProjectCard
+            href="https://ieeexplore.ieee.org/document/10801916"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="IEEE Xplore"
+          >
+            <ProjectCardInfo>
+              <ProjectCardClass>Publikationen</ProjectCardClass>
+              <ProjectCardTitle>IROS Paper</ProjectCardTitle>
+              <ProjectCardSubtitle>
+                Oral Presentation - Abu Dhabi
+              </ProjectCardSubtitle>
+              <ProjectCardDetails>
+                <ProjectCardDetail>
+                  LiOn-XA: Unsupervised Domain Adaptation via LiDAR-Only
+                  Cross-Modal Adversarial Training
+                </ProjectCardDetail>
+                <ProjectCardDetail>T. Kreutz et al.</ProjectCardDetail>
+                <ProjectCardDetail>Second author: Jens Lemke</ProjectCardDetail>
+                <ProjectCardDetail>2024</ProjectCardDetail>
+              </ProjectCardDetails>
+            </ProjectCardInfo>
+          </ProjectCard>
+          <ProjectCard
+            href="https://github.com/JensLe97/tech-knowl-edge-connect"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TechKnowlEdgeConnect"
+          >
+            <ProjectCardInfo>
+              <ProjectCardClass>TechKnowlEdgeConnect</ProjectCardClass>
+              <ProjectCardTitle>Flutter App</ProjectCardTitle>
+              <ProjectCardSubtitle>
+                Lern-App für die Schule und Uni. Aufbau und Austausch von
+                Wissen.
+              </ProjectCardSubtitle>
+              <ProjectCardDetails>
+                <ProjectCardDetail>Lern-Dashboard</ProjectCardDetail>
+                <ProjectCardDetail>Suche nach Inhalten</ProjectCardDetail>
+                <ProjectCardDetail>Ideen von anderen</ProjectCardDetail>
+                <ProjectCardDetail>Chats mit Usern</ProjectCardDetail>
+                <ProjectCardDetail>AI Tech Chat</ProjectCardDetail>
+                <ProjectCardDetail> </ProjectCardDetail>
+                <ProjectCardDetail>2025</ProjectCardDetail>
+              </ProjectCardDetails>
+            </ProjectCardInfo>
+          </ProjectCard>
+          <ProjectCard
+            href="https://github.com/JensLe97"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <ProjectCardInfo>
+              <ProjectCardClass>Mein GitHub</ProjectCardClass>
+              <ProjectCardTitle>Alle Projekte</ProjectCardTitle>
+              <ProjectCardSubtitle>
+                Private Programmiererfahrungen
+              </ProjectCardSubtitle>
+              <ProjectCardDetails>
+                <ProjectCardDetail>TechKnowlEdgeConnect</ProjectCardDetail>
+                <ProjectCardDetail>CheckNotion</ProjectCardDetail>
+                <ProjectCardDetail>Sudoku</ProjectCardDetail>
+                <ProjectCardDetail>Tic-Tac-Toe</ProjectCardDetail>
+                <ProjectCardDetail>Snake</ProjectCardDetail>
+                <ProjectCardDetail>Suchalgorithmen</ProjectCardDetail>
+                <ProjectCardDetail>Diese Website</ProjectCardDetail>
+              </ProjectCardDetails>
+            </ProjectCardInfo>
+          </ProjectCard>
+        </ProjectContainer>
+      </ProjectWrapper>
+      <ProjectWrapper>
+        <ProjectContainer>
+          <ProjectCard
             href="https://ieeexplore.ieee.org/abstract/document/9551968"
             target="_blank"
             rel="noopener noreferrer"
@@ -146,23 +220,22 @@ function ProjectSection() {
             </ProjectCardInfo>
           </ProjectCard>
           <ProjectCard
-            href="https://github.com/JensLe97"
+            href="https://jenslemke.com/game"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="GitHub"
+            aria-label="Flappy Bird"
           >
             <ProjectCardInfo>
-              <ProjectCardClass>Mein GitHub</ProjectCardClass>
-              <ProjectCardTitle>Alle Projekte</ProjectCardTitle>
-              <ProjectCardSubtitle>
-                Private Programmiererfahrungen
-              </ProjectCardSubtitle>
+              <ProjectCardClass>Meine Webapp</ProjectCardClass>
+              <ProjectCardTitle>Flappy Bird</ProjectCardTitle>
+              <ProjectCardSubtitle>Mini-Game in JavaScript</ProjectCardSubtitle>
               <ProjectCardDetails>
-                <ProjectCardDetail>Tic-Tac-Toe</ProjectCardDetail>
-                <ProjectCardDetail>Snake</ProjectCardDetail>
-                <ProjectCardDetail>Suchalgorithmen</ProjectCardDetail>
-                <ProjectCardDetail>Diese Website</ProjectCardDetail>
-                <ProjectCardDetail>CheckNotion</ProjectCardDetail>
+                <ProjectCardDetail>TypeScript</ProjectCardDetail>
+                <ProjectCardDetail>Phaser</ProjectCardDetail>
+                <ProjectCardDetail>Mobile und Desktop</ProjectCardDetail>
+                <ProjectCardDetail>Level</ProjectCardDetail>
+                <ProjectCardDetail>Physik</ProjectCardDetail>
+                <ProjectCardDetail>Design</ProjectCardDetail>
               </ProjectCardDetails>
             </ProjectCardInfo>
           </ProjectCard>
