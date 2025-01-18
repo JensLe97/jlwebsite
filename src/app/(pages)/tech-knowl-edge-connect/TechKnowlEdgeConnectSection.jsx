@@ -599,10 +599,7 @@ const TechKnowlEdgeConnectSection = () => {
         <p>
           Betroffene haben zudem das Recht, sich bei einer
           Datenschutz-Aufsichtsbehörde über die Verarbeitung ihrer
-          personenbezogenen Daten zu beschweren. Kontaktdaten der
-          Datenschutz-Aufsichtsbehörden sind unter
-          https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html
-          abrufbar.
+          personenbezogenen Daten zu beschweren.
         </p>
         <br />
         <h3>1.6. Pflicht zur Bereitstellung von Daten</h3>
