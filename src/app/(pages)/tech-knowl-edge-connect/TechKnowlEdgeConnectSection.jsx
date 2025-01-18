@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const Section = styled.section`
@@ -207,13 +206,27 @@ const TechKnowlEdgeConnectSection = () => {
             Bei dem Herunterladen der TechKnowlEdgeConnect-App über den Apple
             App Store gelten ergänzend zu diesen AGB die Allgemeinen
             Geschäftsbedingungen von Apple, die hier abrufbar sind:
-            http://www.apple.com/legal/internet-services/itunes/de/terms.html.
+            <a
+              href="http://www.apple.com/legal/internet-services/itunes/de/terms.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Apple Terms
+            </a>
+            .
           </li>
           <li>
             Bei dem Herunterladen der TechKnowlEdgeConnect-App über den Google
             Play Store gelten ergänzend zu diesen AGB die Allgemeinen
             Geschäftsbedingungen des Google Play Store, die hier abrufbar sind:
-            https://play.google.com/intl/ALL_de/about/play-terms/.
+            <a
+              href="https://play.google.com/intl/ALL_de/about/play-terms/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Terms
+            </a>
+            .
           </li>
           <li>
             Diese AGB gelten für Nutzerinnen und Nutzer, die sich für die
@@ -461,11 +474,18 @@ const TechKnowlEdgeConnectSection = () => {
           <li>
             Die Europäische Union hat eine Plattform zur außergerichtlichen
             Beilegung verbraucherrechtlicher Streitigkeiten ("OS-Plattform"),
-            die über den Link http://ec.europa.eu/consumers/odr erreichbar ist,
-            eingerichtet. Die Plattform dient als Anlaufstelle für die
-            außergerichtliche Beilegung von Streitigkeiten über vertragliche
-            Verpflichtungen, die sich aus Online-Verträgen ergeben. Gemäß &sect;
-            36 des Gesetzes über Verbraucherstreitbeilegung weist
+            die über den{" "}
+            <a
+              href="http://ec.europa.eu/consumers/odr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link
+            </a>{" "}
+            erreichbar ist, eingerichtet. Die Plattform dient als Anlaufstelle
+            für die außergerichtliche Beilegung von Streitigkeiten über
+            vertragliche Verpflichtungen, die sich aus Online-Verträgen ergeben.
+            Gemäß &sect; 36 des Gesetzes über Verbraucherstreitbeilegung weist
             TechKnowlEdgeConnect darauf hin, dass sie weder verpflichtet noch
             bereit ist, an einem Streitbeilegungsverfahren vor einer
             Verbraucherschlichtungsstelle teilzunehmen.
@@ -493,7 +513,16 @@ const TechKnowlEdgeConnectSection = () => {
           Daten bei der Nutzung
         </p>
         <ul>
-          <li>unserer Website https://jenslemke.com/tech-knowl-edge-connect</li>
+          <li>
+            unserer{" "}
+            <a
+              href="https://jenslemke.com/tech-knowl-edge-connect"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Website
+            </a>
+          </li>
           <li>unserer App "TechKnowlEdgeConnect"</li>
         </ul>
         <p>
@@ -738,8 +767,15 @@ const TechKnowlEdgeConnectSection = () => {
           dieser Verarbeitung ist die Einwilligung des Seitenbesuchers, der sich
           mit dem Konto bei uns anmeldet (Art. 6 Abs. 1 S. 1 lit. a DSGVO).
           Anbieter des Verfahrens ist Apple Inc., Infinite Loop, Cupertino, CA
-          95014, USA (Datenschutzerklärung:
-          https://www.apple.com/legal/privacy/de-ww/).
+          95014, USA (
+          <a
+            href="https://www.apple.com/legal/privacy/de-ww/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Datenschutzerklärung
+          </a>
+          ).
         </p>
         <br />
         <h3>3.5. Single-Sign-On-Verfahren Google</h3>
@@ -759,8 +795,15 @@ const TechKnowlEdgeConnectSection = () => {
           dieser Vereinbarung ist die Einwilligung des Seitenbesuchers, der sich
           mit dem Konto bei uns anmeldet (Art. 6 Abs. 1 S. 1 lit. a DSGVO).
           Anbieter des Verfahrens ist Google Ireland Limited, Gordon House,
-          Barrow Street, Dublin 4, Irland (Datenschutzerklärung:
-          https://policies.google.com/privacy).
+          Barrow Street, Dublin 4, Irland (
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Datenschutzerklärung
+          </a>
+          ).
         </p>
         <br />
         <h2>Drittanbieter</h2>
@@ -778,7 +821,13 @@ const TechKnowlEdgeConnectSection = () => {
           EU-U.S. Data Privacy Framework zertifiziert und bietet daher ein
           angemessenes Datenschutzniveau. Weitere Informationen sind in den
           Datenschutzinformationen des Anbieters unter folgender URL zu finden:
-          https://firebase.google.com/support/privacy?hl=de
+          <a
+            href="https://firebase.google.com/support/privacy?hl=de"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Firebase Datenschutzinformationen
+          </a>
         </p>
         <br />
         <h2>5. Änderungen dieser Datenschutzerklärung</h2>
