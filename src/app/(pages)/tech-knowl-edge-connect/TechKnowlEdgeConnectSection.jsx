@@ -76,36 +76,37 @@ const TechKnowlEdgeConnectSection = () => {
           Karteikarten. Für deine Fragen steht sowohl ein Chatbot als auch der
           Chat mit anderen Usern zur Verfügung, die dich stets mit neuen
           Inhalten auf dem Laufenden halten können.
-          <br />
-          <br />
-          Aktuelle Fächer:
-          <ul>
-            <li>Informatik</li>
-            <li>Mathematik</li>
-            <li>Biologie</li>
-            <li>Erziehungswissenschaften</li>
-          </ul>
-          <br />
-          Aktuelle Features:
-          <ul>
-            <li>
-              AI Tech: Wenn du etwas nicht weißt oder nachschlagen willst,
-              kannst du einfach AI Tech fragen: Ein Chatbot, der deine Fragen
-              blitzschnell beantwortet.
-            </li>{" "}
-            <li>
-              Ideen: Verfolge die neusten Updates von anderen Usern, um
-              Inspirationen zu erhalten und die stetig weiterzubilden. Lade
-              selbst neue Inhalte (Bilder oder Videos) für die Community hoch
-              oder gib anderen ein Like.{" "}
-            </li>
-            <li>
-              Chat: Bleibe mit anderen Usern oder Tutoren in Verbindung und
-              tausche dich über deine Probleme und Fragen aus. Es gibt bestimmt
-              jemanden, der dir weiterhelfen kann.
-            </li>
-          </ul>
         </p>
+        <br />
+        <br />
+        <p>Aktuelle Fächer:</p>
+        <ul>
+          <li>Informatik</li>
+          <li>Mathematik</li>
+          <li>Biologie</li>
+          <li>Erziehungswissenschaften</li>
+        </ul>
+        <br />
+        <p>Aktuelle Features:</p>
+        <ul>
+          <li>
+            AI Tech: Wenn du etwas nicht weißt oder nachschlagen willst, kannst
+            du einfach AI Tech fragen: Ein Chatbot, der deine Fragen
+            blitzschnell beantwortet.
+          </li>{" "}
+          <li>
+            Ideen: Verfolge die neusten Updates von anderen Usern, um
+            Inspirationen zu erhalten und die stetig weiterzubilden. Lade selbst
+            neue Inhalte (Bilder oder Videos) für die Community hoch oder gib
+            anderen ein Like.{" "}
+          </li>
+          <li>
+            Chat: Bleibe mit anderen Usern oder Tutoren in Verbindung und
+            tausche dich über deine Probleme und Fragen aus. Es gibt bestimmt
+            jemanden, der dir weiterhelfen kann.
+          </li>
+        </ul>
+
         <h2>Wer hat die App TechKnowlEdgeConnect entwickelt?</h2>
         <p>
           Die App TechKnowlEdgeConnect wurde von Jens Lemke entwickelt. Er ist
