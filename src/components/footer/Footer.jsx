@@ -102,7 +102,7 @@ const Footer = () => {
             </a>
             <a
               className="social-icon-link linkedin"
-              href="https://www.linkedin.com/in/jens-lemke-b2645a217?originalSubdomain=de"
+              href="https://www.linkedin.com/in/jens-lemke-b2645a217"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
