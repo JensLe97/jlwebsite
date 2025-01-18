@@ -206,7 +206,7 @@ const TechKnowlEdgeConnectSection = () => {
           <li>
             Bei dem Herunterladen der TechKnowlEdgeConnect-App über den Apple
             App Store gelten ergänzend zu diesen AGB die Allgemeinen
-            Geschäftsbedingungen von Apple, die hier abrufbar sind:
+            Geschäftsbedingungen von Apple, die hier abrufbar sind:{" "}
             <a
               href="http://www.apple.com/legal/internet-services/itunes/de/terms.html"
               target="_blank"
@@ -219,7 +219,7 @@ const TechKnowlEdgeConnectSection = () => {
           <li>
             Bei dem Herunterladen der TechKnowlEdgeConnect-App über den Google
             Play Store gelten ergänzend zu diesen AGB die Allgemeinen
-            Geschäftsbedingungen des Google Play Store, die hier abrufbar sind:
+            Geschäftsbedingungen des Google Play Store, die hier abrufbar sind:{" "}
             <a
               href="https://play.google.com/intl/ALL_de/about/play-terms/"
               target="_blank"
@@ -821,7 +821,7 @@ const TechKnowlEdgeConnectSection = () => {
           Datenübertragung in ein Drittland kommen (USA). Der Anbieter ist gemäß
           EU-U.S. Data Privacy Framework zertifiziert und bietet daher ein
           angemessenes Datenschutzniveau. Weitere Informationen sind in den
-          Datenschutzinformationen des Anbieters unter folgender URL zu finden:
+          Datenschutzinformationen des Anbieters unter folgender URL zu finden:{" "}
           <a
             href="https://firebase.google.com/support/privacy?hl=de"
             target="_blank"
