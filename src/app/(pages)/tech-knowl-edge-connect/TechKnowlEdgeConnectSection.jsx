@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const Section = styled.section`
@@ -152,7 +151,7 @@ const TechKnowlEdgeConnectSection = () => {
           schützen. Deine Daten werden vertraulich behandelt und nicht an Dritte
           weitergegeben.
         </p>
-        <h1>Nutzungbedingungen</h1>
+        <h1>Nutzungsbedingungen</h1>
         <h2>1. Geltungsbereich</h2>
         <ul>
           <li>
@@ -174,7 +173,7 @@ const TechKnowlEdgeConnectSection = () => {
           <li>Der Vertragsschluss erfolgt in deutscher Sprache.</li>
         </ul>
         <p> </p>
-        <h2>1. Vertragsschluss </h2>
+        <h2>3. Vertragsschluss </h2>
         <ul>
           <li>
             TechKnowlEdgeConnect ist eine Lernplattform (Webseite und Apps für
@@ -241,7 +240,7 @@ const TechKnowlEdgeConnectSection = () => {
           </li>
         </ul>
         <h2>
-          Mindestalter, Registrierung und Zustimmung Deiner Eltern bzw.
+          4. Mindestalter, Registrierung und Zustimmung Deiner Eltern bzw.
           Erziehungsberechtigten
         </h2>
         <ul>
@@ -257,7 +256,7 @@ const TechKnowlEdgeConnectSection = () => {
             damit einverstanden sein, dass Du Dich registrierst.
           </li>
         </ul>
-        <h2>4. Widerrufsrecht und Erlöschen des Widerrufsrechts</h2>
+        <h2>5. Widerrufsrecht und Erlöschen des Widerrufsrechts</h2>
         <ul>
           <li>
             Die vollständige Widerrufsbelehrung findet sich hier. Bitte beachte:
@@ -268,7 +267,7 @@ const TechKnowlEdgeConnectSection = () => {
             (&sect; 356 Abs. 5 Nr. 1 BGB).
           </li>
         </ul>
-        <h2>5. Was Du tun musst und nicht tun darfst</h2>
+        <h2>6. Was Du tun musst und nicht tun darfst</h2>
         <ul>
           <li>
             Du musst Deine Zugangsdaten (Benutzername, Passwort) geheim halten
@@ -378,7 +377,7 @@ const TechKnowlEdgeConnectSection = () => {
           erstellen, es sei denn, du hast unsere ausdrückliche schriftliche
           Genehmigung zur Erstellung eines neuen Kontos.
         </p>
-        <h2>Moderation und Folgen von Verstößen</h2>
+        <h2>7. Moderation und Folgen von Verstößen</h2>
         <ul>
           <li>
             TechKnowlEdgeConnect übernimmt keinerlei Haftung für die
@@ -418,7 +417,7 @@ const TechKnowlEdgeConnectSection = () => {
             sperren, Deine Inhalte zu löschen und Deine Zugangsdaten zu sperren.
           </li>
         </ul>
-        <h2>Haftung</h2>
+        <h2>8. Haftung</h2>
         <ul>
           <li>
             Wir haften für Vorsatz und grobe Fahrlässigkeit. Ferner haften wir
@@ -438,7 +437,7 @@ const TechKnowlEdgeConnectSection = () => {
             bleibt unberührt.
           </li>
         </ul>
-        <h2>Änderung der AGB</h2>
+        <h2>9. Änderung der AGB</h2>
         <ul>
           <li>
             TechKnowlEdgeConnect ist dazu berechtigt, diese AGB zu ändern,
@@ -464,7 +463,7 @@ const TechKnowlEdgeConnectSection = () => {
             zumutbar ist.
           </li>
         </ul>
-        <h2>Vertragssprache, anwendbares Recht und weitere Hinweise</h2>
+        <h2>10. Vertragssprache, anwendbares Recht und weitere Hinweise</h2>
         <ul>
           <li>
             Der Vertrag wird in deutscher Sprache geschlossen. Es gilt das Recht
@@ -492,7 +491,7 @@ const TechKnowlEdgeConnectSection = () => {
             Verbraucherschlichtungsstelle teilzunehmen.
           </li>
         </ul>
-        <h2>Salvatorische Klausel</h2>
+        <h2>11. Salvatorische Klausel</h2>
         <ul>
           <li>
             Sollten einzelne Bestimmungen dieses Vertrages unwirksam oder
@@ -807,13 +806,13 @@ const TechKnowlEdgeConnectSection = () => {
           ).
         </p>
         <br />
-        <h2>Drittanbieter</h2>
+        <h2>4. Drittanbieter</h2>
         <p>
           Wir setzen die folgenden Technologien und Dienste von Drittanbietern
           auf Grundlage der Einwilligung der Nutzer im Sinne von &sect; 25 Abs.
           1 S. 1 TTDSG ein.
         </p>
-        <h3>Google Firebase (Website/App)</h3>
+        <h3>4.1. Google Firebase (Website/App)</h3>
         <p>
           Für unsere App setzen wir den Cloud-Dienst Google Firebase des
           Anbieters Google Cloud EMEA Limited, Gordon House, Barrow Street,
