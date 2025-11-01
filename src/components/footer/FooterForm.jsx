@@ -16,10 +16,10 @@ export const FooterForm = () => {
   async function handleSubmit(event) {
     event.preventDefault();
 
-    fetch("https://jlwebsite.onrender.com//api/footer", {
+    fetch("https://jlwebsite.onrender.com/api/footer", {
       method: "POST",
       headers: {
-        "Content-type": "application/json",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(email),
     })

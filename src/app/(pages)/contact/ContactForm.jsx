@@ -24,10 +24,10 @@ export const ContactForm = () => {
   async function handleSubmit(event) {
     event.preventDefault();
 
-    fetch("https://jlwebsite.onrender.com//api/contact", {
+    fetch("https://jlwebsite.onrender.com/api/contact", {
       method: "POST",
       headers: {
-        "Content-type": "application/json",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
         name: formData.name,
