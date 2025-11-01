@@ -28,6 +28,12 @@ export const ContactForm = () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": [
+            "https://jenslemke.com",
+            "https://www.jenslemke.com",
+            "https://lemkjens.de",
+            "https://www.lemkjens.de",
+        ],
       },
       body: JSON.stringify({
         name: formData.name,
